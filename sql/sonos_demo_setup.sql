@@ -612,19 +612,15 @@ CREATE OR REPLACE SEMANTIC VIEW SONOS_AI_DEMO.APP.SALES_SEMANTIC_VIEW
 
 
 -- ========================================================================
--- MARKETING CAMPAIGN SEMANTIC VIEW
--- Tracks marketing campaign performance, spend, and attribution
+-- MARKETING CAMPAIGN SEMANTIC VIEW (SIMPLIFIED)
+-- Tracks marketing campaign performance, spend, and ROI
 -- ========================================================================
 
 CREATE OR REPLACE SEMANTIC VIEW SONOS_AI_DEMO.APP.MARKETING_SEMANTIC_VIEW
 	tables (
-		ACCOUNTS as SF_ACCOUNTS primary key (ACCOUNT_ID) with synonyms=('accounts','customers','customer accounts') comment='Customer account information',
-		CAMPAIGNS as MARKETING_CAMPAIGN_FACT primary key (CAMPAIGN_FACT_ID) with synonyms=('campaigns','marketing activities') comment='Marketing campaign performance data',
-		CAMPAIGN_DETAILS as CAMPAIGN_DIM primary key (CAMPAIGN_KEY) with synonyms=('campaign info','campaign details') comment='Campaign details and objectives',
+		CAMPAIGNS as MARKETING_CAMPAIGN_FACT primary key (CAMPAIGN_FACT_ID) with synonyms=('campaigns','marketing activities','marketing data') comment='Marketing campaign performance - daily spend, impressions, and leads by campaign/channel/product',
+		CAMPAIGN_DETAILS as CAMPAIGN_DIM primary key (CAMPAIGN_KEY) with synonyms=('campaign info','campaign names') comment='Campaign names and objectives',
 		CHANNELS as CHANNEL_DIM primary key (CHANNEL_KEY) with synonyms=('channels','marketing channels') comment='Marketing channels: Paid Search, YouTube, Retail eCom, Email, Social Media',
-		CONTACTS as SF_CONTACTS primary key (CONTACT_ID) with synonyms=('leads','contacts','prospects') comment='Customer leads and contacts',
-		CONTACTS_FOR_OPPORTUNITIES as SF_CONTACTS primary key (CONTACT_ID) comment='Contacts linked to opportunities',
-		OPPORTUNITIES as SF_OPPORTUNITIES primary key (OPPORTUNITY_ID) with synonyms=('opportunities','conversions') comment='Sales opportunities and conversions',
 		PRODUCTS as PRODUCT_DIM primary key (PRODUCT_KEY) with synonyms=('products','items') comment='Sonos products featured in campaigns',
 		REGIONS as REGION_DIM primary key (REGION_KEY) with synonyms=('regions','markets') comment='Geographic regions targeted by campaigns'
 	)
@@ -632,82 +628,38 @@ CREATE OR REPLACE SEMANTIC VIEW SONOS_AI_DEMO.APP.MARKETING_SEMANTIC_VIEW
 		CAMPAIGNS_TO_CHANNELS as CAMPAIGNS(CHANNEL_KEY) references CHANNELS(CHANNEL_KEY),
 		CAMPAIGNS_TO_DETAILS as CAMPAIGNS(CAMPAIGN_KEY) references CAMPAIGN_DETAILS(CAMPAIGN_KEY),
 		CAMPAIGNS_TO_PRODUCTS as CAMPAIGNS(PRODUCT_KEY) references PRODUCTS(PRODUCT_KEY),
-		CAMPAIGNS_TO_REGIONS as CAMPAIGNS(REGION_KEY) references REGIONS(REGION_KEY),
-		CONTACTS_TO_ACCOUNTS as CONTACTS(ACCOUNT_ID) references ACCOUNTS(ACCOUNT_ID),
-		CONTACTS_TO_CAMPAIGNS as CONTACTS(CAMPAIGN_NO) references CAMPAIGNS(CAMPAIGN_FACT_ID),
-		CONTACTS_TO_OPPORTUNITIES as CONTACTS_FOR_OPPORTUNITIES(OPPORTUNITY_ID) references OPPORTUNITIES(OPPORTUNITY_ID),
-		OPPORTUNITIES_TO_ACCOUNTS as OPPORTUNITIES(ACCOUNT_ID) references ACCOUNTS(ACCOUNT_ID),
-		OPPORTUNITIES_TO_CAMPAIGNS as OPPORTUNITIES(CAMPAIGN_ID) references CAMPAIGNS(CAMPAIGN_FACT_ID)
+		CAMPAIGNS_TO_REGIONS as CAMPAIGNS(REGION_KEY) references REGIONS(REGION_KEY)
 	)
 	facts (
-		PUBLIC CAMPAIGNS.CAMPAIGN_RECORD as 1 comment='Count of campaign activities',
-		PUBLIC CAMPAIGNS.SPEND as spend comment='Marketing spend in dollars',
-		PUBLIC CAMPAIGNS.IMPRESSIONS as IMPRESSIONS comment='Ad impressions',
-		PUBLIC CAMPAIGNS.LEADS_GENERATED as LEADS_GENERATED comment='Leads generated',
-		PUBLIC CONTACTS.CONTACT_RECORD as 1 comment='Count of contacts/leads',
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_RECORD as 1 comment='Count of opportunities',
-		PUBLIC OPPORTUNITIES.AMOUNT as AMOUNT comment='Revenue from opportunities'
+		CAMPAIGNS.SPEND as spend comment='Daily marketing spend in dollars',
+		CAMPAIGNS.IMPRESSIONS as impressions comment='Daily ad impressions',
+		CAMPAIGNS.LEADS_GENERATED as leads_generated comment='Daily leads generated',
+		CAMPAIGNS.CAMPAIGN_RECORD as 1 comment='Count of campaign activity days'
 	)
 	dimensions (
-		PUBLIC ACCOUNTS.ACCOUNT_ID as ACCOUNT_ID,
-		PUBLIC ACCOUNTS.ACCOUNT_NAME as ACCOUNT_NAME with synonyms=('account name','customer name') comment='Customer account name',
-		PUBLIC ACCOUNTS.ACCOUNT_TYPE as ACCOUNT_TYPE with synonyms=('account type','tier') comment='Account type/tier',
-		PUBLIC ACCOUNTS.ANNUAL_REVENUE as ANNUAL_REVENUE with synonyms=('customer ltv','lifetime value','LTV') comment='Customer lifetime value',
-		PUBLIC ACCOUNTS.EMPLOYEES as EMPLOYEES with synonyms=('household size') comment='Household size',
-		PUBLIC ACCOUNTS.INDUSTRY as INDUSTRY with synonyms=('customer segment') comment='Customer segment',
-		PUBLIC ACCOUNTS.CUSTOMER_KEY as CUSTOMER_KEY,
-		PUBLIC CAMPAIGNS.DATE as date with synonyms=('date','campaign date') comment='Campaign date',
-		PUBLIC CAMPAIGNS.CAMPAIGN_FACT_ID as CAMPAIGN_FACT_ID,
-		PUBLIC CAMPAIGNS.CAMPAIGN_KEY as CAMPAIGN_KEY,
-		PUBLIC CAMPAIGNS.CAMPAIGN_MONTH as MONTH(date) comment='Campaign month',
-		PUBLIC CAMPAIGNS.CAMPAIGN_YEAR as YEAR(date) comment='Campaign year',
-		PUBLIC CAMPAIGNS.CHANNEL_KEY as CHANNEL_KEY,
-		PUBLIC CAMPAIGNS.PRODUCT_KEY as PRODUCT_KEY,
-		PUBLIC CAMPAIGNS.REGION_KEY as REGION_KEY,
-		PUBLIC CAMPAIGN_DETAILS.CAMPAIGN_KEY as CAMPAIGN_KEY,
-		PUBLIC CAMPAIGN_DETAILS.CAMPAIGN_NAME as CAMPAIGN_NAME with synonyms=('campaign','campaign title') comment='Campaign name',
-		PUBLIC CAMPAIGN_DETAILS.CAMPAIGN_OBJECTIVE as OBJECTIVE with synonyms=('objective','goal') comment='Campaign objective',
-		PUBLIC CHANNELS.CHANNEL_KEY as CHANNEL_KEY,
-		PUBLIC CHANNELS.CHANNEL_NAME as CHANNEL_NAME with synonyms=('channel','marketing channel') comment='Marketing channel (Paid Search, YouTube, Social, etc.)',
-		PUBLIC CONTACTS.ACCOUNT_ID as ACCOUNT_ID,
-		PUBLIC CONTACTS.CAMPAIGN_NO as CAMPAIGN_NO,
-		PUBLIC CONTACTS.CONTACT_ID as CONTACT_ID,
-		PUBLIC CONTACTS.DEPARTMENT as DEPARTMENT,
-		PUBLIC CONTACTS.EMAIL as EMAIL,
-		PUBLIC CONTACTS.FIRST_NAME as FIRST_NAME,
-		PUBLIC CONTACTS.LAST_NAME as LAST_NAME,
-		PUBLIC CONTACTS.LEAD_SOURCE as LEAD_SOURCE with synonyms=('lead source','source') comment='Lead source',
-		PUBLIC CONTACTS.OPPORTUNITY_ID as OPPORTUNITY_ID,
-		PUBLIC CONTACTS.TITLE as TITLE,
-		PUBLIC OPPORTUNITIES.ACCOUNT_ID as ACCOUNT_ID,
-		PUBLIC OPPORTUNITIES.CAMPAIGN_ID as CAMPAIGN_ID,
-		PUBLIC OPPORTUNITIES.CLOSE_DATE as CLOSE_DATE with synonyms=('close date','conversion date') comment='Opportunity close date',
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_ID as OPPORTUNITY_ID,
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_LEAD_SOURCE as lead_source,
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_NAME as OPPORTUNITY_NAME,
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_STAGE as STAGE_NAME comment='Opportunity stage (Closed Won = converted)',
-		PUBLIC OPPORTUNITIES.OPPORTUNITY_TYPE as TYPE,
-		PUBLIC OPPORTUNITIES.SALE_ID as SALE_ID,
-		PUBLIC PRODUCTS.CATEGORY_NAME as CATEGORY_NAME,
-		PUBLIC PRODUCTS.PRODUCT_KEY as PRODUCT_KEY,
-		PUBLIC PRODUCTS.PRODUCT_NAME as PRODUCT_NAME with synonyms=('product') comment='Sonos product name',
-		PUBLIC PRODUCTS.VERTICAL as VERTICAL,
-		PUBLIC REGIONS.REGION_KEY as REGION_KEY,
-		PUBLIC REGIONS.REGION_NAME as REGION_NAME with synonyms=('region') comment='Region name'
+		CAMPAIGNS.DATE as date with synonyms=('date','campaign date','activity date') comment='Campaign activity date',
+		CAMPAIGNS.CAMPAIGN_MONTH as MONTH(date) comment='Campaign month',
+		CAMPAIGNS.CAMPAIGN_YEAR as YEAR(date) comment='Campaign year',
+		CAMPAIGNS.CAMPAIGN_KEY as CAMPAIGN_KEY,
+		CAMPAIGNS.CHANNEL_KEY as CHANNEL_KEY,
+		CAMPAIGNS.PRODUCT_KEY as PRODUCT_KEY,
+		CAMPAIGNS.REGION_KEY as REGION_KEY,
+		CAMPAIGN_DETAILS.CAMPAIGN_NAME as campaign_name with synonyms=('campaign','campaign title') comment='Campaign name (e.g., Arc Upgrade Promo Q3 2025)',
+		CAMPAIGN_DETAILS.CAMPAIGN_OBJECTIVE as objective with synonyms=('objective','goal','campaign type') comment='Campaign objective (Product Launch, Seasonal Promotion, Lead Generation)',
+		CHANNELS.CHANNEL_NAME as channel_name with synonyms=('channel','marketing channel') comment='Marketing channel (Paid Search, YouTube, Retail eCom, Social Media, Email)',
+		PRODUCTS.PRODUCT_NAME as product_name with synonyms=('product','device') comment='Sonos product name (Arc, Beam, Era 100, Move 2, Roam, etc.)',
+		REGIONS.REGION_NAME as region_name with synonyms=('region','market') comment='Geographic region'
 	)
 	metrics (
-		PUBLIC CAMPAIGNS.AVERAGE_SPEND as AVG(CAMPAIGNS.spend) comment='Average campaign spend',
-		PUBLIC CAMPAIGNS.TOTAL_CAMPAIGNS as COUNT(CAMPAIGNS.campaign_record) comment='Total campaigns',
-		PUBLIC CAMPAIGNS.TOTAL_IMPRESSIONS as SUM(CAMPAIGNS.impressions) comment='Total impressions',
-		PUBLIC CAMPAIGNS.TOTAL_LEADS as SUM(CAMPAIGNS.leads_generated) comment='Total leads generated',
-		PUBLIC CAMPAIGNS.TOTAL_SPEND as SUM(CAMPAIGNS.spend) comment='Total marketing spend',
-		PUBLIC CONTACTS.TOTAL_CONTACTS as COUNT(CONTACTS.contact_record) comment='Total contacts',
-		PUBLIC OPPORTUNITIES.AVERAGE_DEAL_SIZE as AVG(OPPORTUNITIES.amount) comment='Average deal size',
-		PUBLIC OPPORTUNITIES.CLOSED_WON_REVENUE as SUM(CASE WHEN OPPORTUNITIES.stage_name = 'Closed Won' THEN OPPORTUNITIES.amount ELSE 0 END) comment='Revenue from closed won deals',
-		PUBLIC OPPORTUNITIES.TOTAL_OPPORTUNITIES as COUNT(OPPORTUNITIES.opportunity_record) comment='Total opportunities',
-		PUBLIC OPPORTUNITIES.TOTAL_REVENUE as SUM(OPPORTUNITIES.amount) comment='Total revenue from opportunities'
+		CAMPAIGNS.TOTAL_SPEND as SUM(campaigns.spend) comment='Total marketing spend',
+		CAMPAIGNS.TOTAL_IMPRESSIONS as SUM(campaigns.impressions) comment='Total ad impressions',
+		CAMPAIGNS.TOTAL_LEADS as SUM(campaigns.leads_generated) comment='Total leads generated',
+		CAMPAIGNS.TOTAL_ACTIVITIES as COUNT(campaigns.campaign_record) comment='Total campaign activity days',
+		CAMPAIGNS.AVERAGE_SPEND as AVG(campaigns.spend) comment='Average daily spend',
+		CAMPAIGNS.COST_PER_LEAD as SUM(campaigns.spend) / NULLIF(SUM(campaigns.leads_generated), 0) comment='Cost per lead (CAC)',
+		CAMPAIGNS.COST_PER_IMPRESSION as SUM(campaigns.spend) / NULLIF(SUM(campaigns.impressions), 0) * 1000 comment='CPM (cost per thousand impressions)'
 	)
-	comment='Semantic view for Sonos marketing campaign analytics - tracks campaign performance, spend, and attribution to sales';
+	comment='Semantic view for Sonos marketing campaign analytics - tracks spend, impressions, leads, and ROI by campaign/channel/product';
 
 
 -- ========================================================================
