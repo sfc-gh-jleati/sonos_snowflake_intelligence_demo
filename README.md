@@ -230,99 +230,73 @@ Include 3-4 of these in your prompt:
 
 ---
 
-## 📊 Data Model
+## 📊 Streamlined Data Model
 
-### Dimension Tables (13)
+**Focused on answering the 4 demo questions with relevant Sonos consumer electronics data only.**
 
-| Table | Description | Row Count |
-|-------|-------------|-----------|
-| `product_category_dim` | Product categories (Soundbars, Smart Speakers, etc.) | 6 |
-| `product_dim` | Sonos products (Arc, Beam, Era, Move, Roam, Sub, Amp) | 15 |
-| `vendor_dim` | Service partners (Stripe, AWS, Shopify, etc.) | 10 |
-| `customer_dim` | Customers who purchase Sonos products | 1,000 |
-| `account_dim` | Financial account types | 8 |
-| `department_dim` | Sonos departments | 10 |
-| `region_dim` | Geographic regions (NA, Europe, APAC, LATAM) | 4 |
-| `sales_rep_dim` | Sales representatives | 10 |
-| `campaign_dim` | Marketing campaigns | 15 |
-| `channel_dim` | Marketing channels (Paid Search, YouTube, etc.) | 10 |
-| `employee_dim` | Sonos employees | 20 |
-| `job_dim` | Job titles and levels | 20 |
-| `location_dim` | Office locations | 10 |
-
-### Fact Tables (4)
+### Dimension Tables (5)
 
 | Table | Description | Row Count |
 |-------|-------------|-----------|
-| `sales_fact` | Product sales transactions (2024-2025) | ~20,000 |
-| `marketing_campaign_fact` | Campaign performance data | ~2,500 |
-| `finance_transactions` | Financial transactions | ~6,800 |
-| `hr_employee_fact` | Employee records (quarterly snapshots) | ~160 |
+| `product_category_dim` | Product categories: Soundbars, Smart Speakers, Portable Speakers, Subwoofers, Amplifiers | 6 |
+| `product_dim` | Sonos products: Arc, Beam, Ray, Era 100/300, One, Move 2, Roam, Sub, Amp | 15 |
+| `region_dim` | Geographic regions: North America, Europe, APAC, Latin America | 4 |
+| `campaign_dim` | Marketing campaigns: Arc Upgrade Promo Q3 2025, Beam Back-to-School, Move 2 Launch, etc. | 15 |
+| `channel_dim` | Marketing channels: Paid Search, YouTube, Social Media, Retail eCom, Email, Affiliates | 10 |
 
-### Customer Journey Tables (3)
+### Fact Tables (2)
 
-| Table | Description | Row Count |
-|-------|-------------|-----------|
-| `sf_accounts` | Customer accounts and profiles | 1,000 |
-| `sf_opportunities` | Sales opportunities and conversions | 5,000 |
-| `sf_contacts` | Customer contacts and leads | 10,000 |
+| Table | Description | Row Count | Date Range |
+|-------|-------------|-----------|------------|
+| `sales_fact` | Sonos product sales by date/product/region | 22,858 | 2024-01-01 → 2025-12-15 |
+| `marketing_campaign_fact` | Campaign performance: spend, impressions, leads | 2,662 | 2024-03-01 → 2025-10-31 |
 
-### Unstructured Documents (12)
+### Helper Views (2)
 
-**Finance** (3 PDFs):
-- Expense Policy 2024
-- Vendor Management Policy
-- Financial Report Q3 2024
+| View | Description | Purpose |
+|------|-------------|---------|
+| `arc_daily_sales` | Arc daily sales by region | Q3 - Forecasting & anomaly detection |
+| `arc_weekly_na_sales` | Arc weekly North America aggregates | Q3 - Trend analysis |
 
-**HR** (3 PDFs):
-- Employee Handbook 2024
-- Performance Guidelines
-- Department Overview
+### Unstructured Documents (6)
 
 **Marketing** (3 PDFs):
-- Campaign Strategy 2024
-- Channel Performance Report
-- Marketing Plan 2025
+- Campaign Strategy 2024 - Annual campaign planning and objectives
+- Channel Performance Report - ROI analysis by marketing channel
+- Marketing Plan 2025 - Future campaign roadmap
 
-**Sales/Product** (3 PDFs):
-- Product Playbook 2024
-- Customer Success Stories
-- Product Performance Data
+**Product/Sales** (3 PDFs):
+- Product Playbook 2024 - Sonos product positioning and features
+- Customer Success Stories - Real customer testimonials and use cases
+- Product Performance Data - Sales performance by product
 
 ## 🛠️ Technical Components
 
-### Semantic Views (4)
+### Semantic Views (2)
 
-1. **SALES_SEMANTIC_VIEW**: Product sales, revenue, units by product/region/time
-2. **MARKETING_SEMANTIC_VIEW**: Campaign performance, spend, attribution to sales
-3. **FINANCE_SEMANTIC_VIEW**: Financial transactions, revenue, costs
-4. **HR_SEMANTIC_VIEW**: Team composition, staffing, organizational metrics
+1. **SALES_SEMANTIC_VIEW**: Product sales analytics - revenue, units, trends by product/region/time (for Q1 & Q3)
+2. **MARKETING_SEMANTIC_VIEW**: Campaign performance - spend, impressions, leads, ROI by campaign/channel (for Q2)
 
-### Cortex Search Services (4)
+### Cortex Search Services (2)
 
-- **SEARCH_FINANCE_DOCS**: Search financial policies and reports
-- **SEARCH_HR_DOCS**: Search employee handbook and HR policies
-- **SEARCH_MARKETING_DOCS**: Search campaign strategies and plans
-- **SEARCH_SALES_DOCS**: Search product playbooks and success stories
+- **SEARCH_MARKETING_DOCS**: Search campaign strategies, channel performance reports, marketing plans
+- **SEARCH_PRODUCT_DOCS**: Search product playbooks, customer success stories, product performance data
 
-### Custom Tools (3)
+### Custom Tools (1)
 
-- **Web_scraper**: Python UDF to scrape and analyze web content
-- **Send_Emails**: Send analytics reports via email
-- **Dynamic_Doc_URL_Tool**: Generate presigned URLs for document sharing
+- **Web_Scraper**: Python UDF to scrape and analyze web content from review sites (for Q4)
 
 ### Agent Capabilities
 
 The **Sonos Product Intelligence Agent** can:
 
-- ✅ Query structured data across Sales, Marketing, Finance, and HR
-- ✅ Search unstructured documents for policies and insights
-- ✅ Scrape and analyze external web content (reviews, news)
-- ✅ Generate forecasts and detect anomalies using ML functions
-- ✅ Create visualizations (line charts, bar charts)
-- ✅ Provide multi-tool orchestration for complex queries
-- ✅ Share documents via presigned URLs
-- ✅ Send email reports
+- ✅ **Analyze product sales** (Q1) - Top products, revenue, units, growth rates by region and time
+- ✅ **Attribute sales to marketing** (Q2) - Track which campaigns and channels drive product sales
+- ✅ **Forecast and detect anomalies** (Q3) - Predict future sales, flag unusual patterns using statistical methods
+- ✅ **Analyze sentiment** (Q4) - Scrape product reviews from web, extract sentiment and themes
+- ✅ **Search product documentation** - Find insights in marketing plans and product playbooks
+- ✅ **Create visualizations** - Generate line charts (trends) and bar charts (comparisons)
+- ✅ **Multi-tool orchestration** - Combine structured data, documents, and web content
 
 ## 🔧 Troubleshooting
 
@@ -385,36 +359,15 @@ SHOW FUNCTIONS LIKE '%ANOMALY%';
 sonos_snowflake_intelligence_demo/
 ├── README.md (this file)
 ├── LICENSE
-├── demo_data/
-│   ├── product_category_dim.csv
-│   ├── product_dim.csv
-│   ├── vendor_dim.csv
-│   ├── customer_dim.csv
-│   ├── account_dim.csv
-│   ├── department_dim.csv
-│   ├── region_dim.csv
-│   ├── sales_rep_dim.csv
-│   ├── campaign_dim.csv
-│   ├── channel_dim.csv
-│   ├── employee_dim.csv
-│   ├── job_dim.csv
-│   ├── location_dim.csv
-│   ├── sales_fact.csv (~20K rows)
-│   ├── finance_transactions.csv
-│   ├── marketing_campaign_fact.csv
-│   ├── hr_employee_fact.csv
-│   ├── sf_accounts.csv
-│   ├── sf_opportunities.csv
-│   └── sf_contacts.csv
+├── demo_data/ (7 CSV files - 25,520 total rows)
+│   ├── product_category_dim.csv (6 rows)
+│   ├── product_dim.csv (15 rows)
+│   ├── region_dim.csv (4 rows)
+│   ├── campaign_dim.csv (15 rows)
+│   ├── channel_dim.csv (10 rows)
+│   ├── sales_fact.csv (22,858 rows) ⭐
+│   └── marketing_campaign_fact.csv (2,662 rows) ⭐
 ├── unstructured_docs/
-│   ├── finance/
-│   │   ├── Expense_Policy_2024.pdf
-│   │   ├── Vendor_Management_Policy.pdf
-│   │   └── Financial_Report_Q3_2024.pdf
-│   ├── hr/
-│   │   ├── Employee_Handbook_2024.pdf
-│   │   ├── Performance_Guidelines.pdf
-│   │   └── Department_Overview.pdf
 │   ├── marketing/
 │   │   ├── Campaign_Strategy_2024.pdf
 │   │   ├── Channel_Performance_Report.pdf
@@ -424,7 +377,8 @@ sonos_snowflake_intelligence_demo/
 │       ├── Customer_Success_Stories.pdf
 │       └── Product_Performance_Data.pdf
 └── sql/
-    └── sonos_demo_setup.sql (complete setup script)
+    ├── sonos_demo_setup.sql (streamlined setup script)
+    └── arc_forecast_example.sql (forecasting SQL examples)
 ```
 
 ## 🎓 Learning Resources
