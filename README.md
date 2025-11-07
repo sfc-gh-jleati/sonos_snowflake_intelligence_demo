@@ -145,47 +145,44 @@ Forecast the next 4 weeks of units for Sonos Arc and flag any anomalies over the
 ```
 
 **What it demonstrates:**
-- Time-series forecasting using Snowflake ML functions
-- Anomaly detection capabilities
+- Time-series forecasting using statistical methods or Snowflake ML
+- Anomaly detection with z-score analysis
 - Forward-looking predictive analytics
-- Identification of unexpected sales spikes or drops
+- Identification of promotional spikes and unusual patterns
 
-**Implementation notes:**
+**Helper Views Available:**
 
-The agent should use **SNOWFLAKE.ML.FORECAST** or **SNOWFLAKE.CORTEX.FORECAST** if available. If ML functions are unavailable in your account, the agent can fall back to statistical methods:
+The demo includes pre-built helper views for Arc analysis:
+- `arc_daily_sales` - Arc sales by date and region
+- `arc_weekly_na_sales` - Arc weekly aggregates for North America
+
+**Alternative Approach - Run the Forecast Example:**
+
+Since Cortex Analyst focuses on historical data, you can run the forecasting SQL directly:
 
 ```sql
--- Example: Manual anomaly detection using z-score
-WITH sales_stats AS (
-  SELECT 
-    DATE_TRUNC('week', date) as week,
-    SUM(units) as weekly_units,
-    AVG(SUM(units)) OVER (ORDER BY DATE_TRUNC('week', date) 
-                          ROWS BETWEEN 11 PRECEDING AND CURRENT ROW) as avg_units,
-    STDDEV(SUM(units)) OVER (ORDER BY DATE_TRUNC('week', date) 
-                             ROWS BETWEEN 11 PRECEDING AND CURRENT ROW) as stddev_units
-  FROM sales_fact s
-  JOIN product_dim p ON s.product_key = p.product_key
-  WHERE p.product_name = 'Sonos Arc'
-    AND date >= DATEADD(week, -12, CURRENT_DATE())
-  GROUP BY DATE_TRUNC('week', date)
-)
+-- See sql/arc_forecast_example.sql for complete forecasting examples
+-- Quick anomaly check:
 SELECT 
-  week,
-  weekly_units,
-  avg_units,
-  CASE 
-    WHEN ABS(weekly_units - avg_units) > 2 * stddev_units THEN 'ANOMALY'
-    ELSE 'NORMAL'
-  END as anomaly_flag
-FROM sales_stats
-ORDER BY week;
+    date,
+    units_sold,
+    CASE 
+        WHEN (units_sold - AVG(units_sold) OVER (ORDER BY ts ROWS BETWEEN 13 PRECEDING AND 1 PRECEDING)) / 
+             NULLIF(STDDEV(units_sold) OVER (ORDER BY ts ROWS BETWEEN 13 PRECEDING AND 1 PRECEDING), 0) > 2 
+        THEN '🔴 ANOMALY HIGH'
+        ELSE '✅ NORMAL'
+    END as flag
+FROM arc_daily_sales
+WHERE region_name = 'North America'
+  AND date >= DATEADD(week, -12, CURRENT_DATE())
+ORDER BY date DESC;
 ```
 
 **Expected output:**
-- Forecast for next 4 weeks of Sonos Arc units
-- Flagged anomalies in past 12 weeks (e.g., product launch spikes, promotional periods)
-- Confidence intervals if using ML forecasting
+- **Anomalies flagged** on Sept 10, Sept 26, Oct 11, Oct 20 (Arc Upgrade Promo spikes: 40-53 units vs normal 20-30)
+- **Forecast baseline**: ~5-7 units/day for next 4 weeks (based on Nov-Dec stable pattern)
+- **Story**: Arc Upgrade Promo Q3 2025 drove significant spikes in Sept/Oct, now stabilizing in Nov-Dec
+- See `sql/arc_forecast_example.sql` for complete forecasting SQL
 
 ---
 
