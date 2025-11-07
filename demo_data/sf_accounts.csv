@@ -1,0 +1,1001 @@
+account_id,account_name,customer_key,industry,vertical,billing_street,billing_city,billing_state,billing_postal_code,account_type,annual_revenue,employees,created_date
+ACC000001,Customer_000001,1,Tech Professional,Consumer,1857 Main St,Austin,TX,90562,Basic,327.27,3,2022-02-04
+ACC000002,Customer_000002,2,Creative Professional,Consumer,5723 Main St,Los Angeles,IL,29652,Basic,455.64,1,2024-09-14
+ACC000003,Customer_000003,3,Audiophile,Consumer,7318 Main St,Los Angeles,WA,33800,Free,0.0,2,2021-02-01
+ACC000004,Customer_000004,4,Creative Professional,Consumer,950 Main St,Chicago,CA,18325,Basic,788.83,2,2023-12-26
+ACC000005,Customer_000005,5,Audiophile,Consumer,3219 Main St,New York,TX,35527,Basic,962.61,3,2022-07-11
+ACC000006,Customer_000006,6,Audiophile,Consumer,1667 Main St,Chicago,TX,22870,Free,0.0,2,2022-07-27
+ACC000007,Customer_000007,7,Creative Professional,Consumer,666 Main St,Austin,TX,34452,Free,0.0,4,2024-09-02
+ACC000008,Customer_000008,8,Audiophile,Consumer,4995 Main St,Austin,IL,33787,Free,0.0,4,2024-10-09
+ACC000009,Customer_000009,9,Home Owner,Consumer,3353 Main St,New York,NY,28938,Free,0.0,2,2020-06-07
+ACC000010,Customer_000010,10,Audiophile,Consumer,7853 Main St,Los Angeles,IL,87606,Free,0.0,4,2020-03-18
+ACC000011,Customer_000011,11,Home Owner,Consumer,5298 Main St,Chicago,WA,58841,Basic,708.13,1,2024-02-25
+ACC000012,Customer_000012,12,Tech Professional,Consumer,1523 Main St,Seattle,NY,96296,Basic,634.53,3,2021-11-01
+ACC000013,Customer_000013,13,Creative Professional,Consumer,3510 Main St,Los Angeles,WA,28380,Free,0.0,1,2020-06-27
+ACC000014,Customer_000014,14,Audiophile,Consumer,5270 Main St,Chicago,CA,16128,Free,0.0,2,2024-11-06
+ACC000015,Customer_000015,15,Audiophile,Consumer,6415 Main St,Los Angeles,NY,16574,Free,0.0,1,2023-08-13
+ACC000016,Customer_000016,16,Home Owner,Consumer,8610 Main St,New York,TX,68376,Basic,616.03,1,2023-10-01
+ACC000017,Customer_000017,17,Audiophile,Consumer,2217 Main St,Los Angeles,WA,66798,Premium,1427.92,1,2023-05-24
+ACC000018,Customer_000018,18,Audiophile,Consumer,412 Main St,Los Angeles,CA,64225,Premium Plus,923.66,4,2022-03-15
+ACC000019,Customer_000019,19,Tech Professional,Consumer,425 Main St,New York,WA,96744,Free,0.0,3,2022-01-06
+ACC000020,Customer_000020,20,Home Owner,Consumer,2332 Main St,New York,WA,72599,Basic,691.12,2,2024-09-29
+ACC000021,Customer_000021,21,Creative Professional,Consumer,2971 Main St,New York,WA,92775,Basic,336.51,3,2022-11-09
+ACC000022,Customer_000022,22,Creative Professional,Consumer,7039 Main St,Seattle,NY,49294,Free,0.0,4,2021-07-04
+ACC000023,Customer_000023,23,Creative Professional,Consumer,908 Main St,New York,TX,63501,Basic,465.83,2,2020-01-15
+ACC000024,Customer_000024,24,Tech Professional,Consumer,8138 Main St,Chicago,WA,93448,Free,0.0,1,2023-02-07
+ACC000025,Customer_000025,25,Home Owner,Consumer,9503 Main St,New York,TX,95959,Basic,941.39,3,2020-08-03
+ACC000026,Customer_000026,26,Home Owner,Consumer,4263 Main St,Chicago,NY,18093,Free,0.0,2,2020-05-15
+ACC000027,Customer_000027,27,Home Owner,Consumer,7575 Main St,Los Angeles,TX,55047,Basic,309.71,3,2022-01-23
+ACC000028,Customer_000028,28,Creative Professional,Consumer,2636 Main St,Austin,TX,36023,Free,0.0,2,2021-05-25
+ACC000029,Customer_000029,29,Creative Professional,Consumer,9230 Main St,Austin,WA,61493,Free,0.0,4,2020-05-08
+ACC000030,Customer_000030,30,Home Owner,Consumer,4837 Main St,Seattle,IL,90724,Basic,847.16,3,2022-04-15
+ACC000031,Customer_000031,31,Tech Professional,Consumer,9308 Main St,New York,TX,18919,Free,0.0,2,2024-02-27
+ACC000032,Customer_000032,32,Creative Professional,Consumer,3034 Main St,New York,NY,46843,Free,0.0,4,2024-09-20
+ACC000033,Customer_000033,33,Creative Professional,Consumer,8340 Main St,Austin,IL,84023,Free,0.0,2,2021-01-29
+ACC000034,Customer_000034,34,Creative Professional,Consumer,8106 Main St,Chicago,WA,11526,Premium,1233.87,1,2022-02-27
+ACC000035,Customer_000035,35,Audiophile,Consumer,5978 Main St,Chicago,IL,46668,Free,0.0,4,2020-07-30
+ACC000036,Customer_000036,36,Tech Professional,Consumer,7786 Main St,Los Angeles,NY,62356,Basic,808.7,3,2023-03-01
+ACC000037,Customer_000037,37,Audiophile,Consumer,9759 Main St,New York,WA,56392,Free,0.0,3,2020-09-07
+ACC000038,Customer_000038,38,Home Owner,Consumer,3990 Main St,Chicago,CA,59627,Free,0.0,4,2023-06-13
+ACC000039,Customer_000039,39,Audiophile,Consumer,6141 Main St,New York,WA,98652,Premium Plus,2399.72,2,2023-12-19
+ACC000040,Customer_000040,40,Audiophile,Consumer,7088 Main St,Chicago,IL,11178,Free,0.0,1,2020-06-16
+ACC000041,Customer_000041,41,Audiophile,Consumer,5192 Main St,Seattle,NY,23292,Premium Plus,3370.81,2,2023-03-22
+ACC000042,Customer_000042,42,Audiophile,Consumer,3386 Main St,Austin,IL,14770,Premium Plus,3237.42,2,2022-01-14
+ACC000043,Customer_000043,43,Home Owner,Consumer,8001 Main St,Los Angeles,TX,21640,Basic,758.42,1,2022-02-18
+ACC000044,Customer_000044,44,Tech Professional,Consumer,7503 Main St,Austin,WA,53218,Premium Plus,2955.69,4,2022-12-26
+ACC000045,Customer_000045,45,Home Owner,Consumer,8757 Main St,Los Angeles,CA,54701,Free,0.0,4,2020-07-26
+ACC000046,Customer_000046,46,Creative Professional,Consumer,2727 Main St,Austin,IL,55372,Premium,1022.7,3,2023-03-16
+ACC000047,Customer_000047,47,Home Owner,Consumer,4780 Main St,Seattle,WA,93058,Free,0.0,3,2023-11-25
+ACC000048,Customer_000048,48,Creative Professional,Consumer,1814 Main St,Chicago,NY,48927,Free,0.0,3,2020-11-17
+ACC000049,Customer_000049,49,Audiophile,Consumer,1228 Main St,Chicago,IL,54094,Basic,501.34,1,2020-01-07
+ACC000050,Customer_000050,50,Audiophile,Consumer,3505 Main St,Los Angeles,NY,91192,Free,0.0,4,2023-04-26
+ACC000051,Customer_000051,51,Tech Professional,Consumer,8879 Main St,Seattle,NY,36821,Free,0.0,2,2020-06-22
+ACC000052,Customer_000052,52,Audiophile,Consumer,8849 Main St,New York,NY,94247,Free,0.0,1,2021-06-27
+ACC000053,Customer_000053,53,Home Owner,Consumer,8034 Main St,New York,WA,22702,Basic,513.56,3,2021-06-12
+ACC000054,Customer_000054,54,Home Owner,Consumer,6596 Main St,New York,TX,12716,Basic,443.43,1,2022-03-22
+ACC000055,Customer_000055,55,Creative Professional,Consumer,2824 Main St,Chicago,WA,93821,Basic,816.1,3,2021-05-02
+ACC000056,Customer_000056,56,Tech Professional,Consumer,3930 Main St,Seattle,TX,71441,Basic,852.64,4,2023-12-13
+ACC000057,Customer_000057,57,Creative Professional,Consumer,372 Main St,Chicago,NY,14237,Free,0.0,1,2021-09-15
+ACC000058,Customer_000058,58,Creative Professional,Consumer,7292 Main St,Seattle,CA,89701,Free,0.0,4,2022-06-24
+ACC000059,Customer_000059,59,Creative Professional,Consumer,2164 Main St,Austin,TX,59446,Basic,601.55,4,2020-06-13
+ACC000060,Customer_000060,60,Home Owner,Consumer,1707 Main St,Austin,IL,11852,Free,0.0,4,2021-02-07
+ACC000061,Customer_000061,61,Creative Professional,Consumer,1957 Main St,New York,TX,45607,Premium,685.85,4,2022-05-03
+ACC000062,Customer_000062,62,Audiophile,Consumer,5263 Main St,Seattle,IL,89087,Premium Plus,1802.99,1,2022-05-17
+ACC000063,Customer_000063,63,Creative Professional,Consumer,6049 Main St,Austin,WA,83942,Free,0.0,1,2022-06-01
+ACC000064,Customer_000064,64,Tech Professional,Consumer,1703 Main St,Seattle,CA,20148,Free,0.0,3,2021-05-15
+ACC000065,Customer_000065,65,Creative Professional,Consumer,651 Main St,Austin,CA,71391,Premium Plus,1607.75,1,2022-04-30
+ACC000066,Customer_000066,66,Home Owner,Consumer,1462 Main St,Chicago,NY,60274,Free,0.0,1,2020-03-06
+ACC000067,Customer_000067,67,Creative Professional,Consumer,2147 Main St,New York,NY,68030,Premium,1352.42,4,2021-01-14
+ACC000068,Customer_000068,68,Creative Professional,Consumer,1544 Main St,New York,TX,91852,Basic,414.61,3,2020-05-09
+ACC000069,Customer_000069,69,Home Owner,Consumer,6445 Main St,New York,WA,29438,Free,0.0,2,2021-08-04
+ACC000070,Customer_000070,70,Tech Professional,Consumer,232 Main St,New York,TX,75782,Free,0.0,2,2022-12-03
+ACC000071,Customer_000071,71,Home Owner,Consumer,7750 Main St,Seattle,CA,86190,Basic,582.05,4,2022-11-10
+ACC000072,Customer_000072,72,Audiophile,Consumer,2969 Main St,Austin,NY,31161,Free,0.0,1,2020-12-18
+ACC000073,Customer_000073,73,Creative Professional,Consumer,1496 Main St,Seattle,NY,37858,Basic,428.82,1,2021-12-15
+ACC000074,Customer_000074,74,Creative Professional,Consumer,3903 Main St,Austin,NY,37757,Basic,1025.04,3,2021-03-29
+ACC000075,Customer_000075,75,Home Owner,Consumer,9607 Main St,New York,CA,77378,Premium,1396.55,2,2023-06-30
+ACC000076,Customer_000076,76,Creative Professional,Consumer,1381 Main St,Los Angeles,TX,54718,Free,0.0,4,2020-12-06
+ACC000077,Customer_000077,77,Tech Professional,Consumer,6317 Main St,Seattle,TX,65446,Basic,793.6,1,2020-03-28
+ACC000078,Customer_000078,78,Audiophile,Consumer,4804 Main St,Los Angeles,TX,87380,Free,0.0,1,2021-05-10
+ACC000079,Customer_000079,79,Tech Professional,Consumer,4685 Main St,Seattle,CA,69136,Basic,661.69,4,2021-10-05
+ACC000080,Customer_000080,80,Home Owner,Consumer,8940 Main St,Los Angeles,WA,94240,Free,0.0,4,2023-05-26
+ACC000081,Customer_000081,81,Home Owner,Consumer,2927 Main St,Seattle,CA,43399,Free,0.0,1,2023-12-19
+ACC000082,Customer_000082,82,Creative Professional,Consumer,9378 Main St,Seattle,WA,46644,Free,0.0,3,2023-01-26
+ACC000083,Customer_000083,83,Home Owner,Consumer,3050 Main St,Austin,IL,72099,Basic,783.43,1,2024-01-04
+ACC000084,Customer_000084,84,Audiophile,Consumer,3595 Main St,Seattle,CA,47775,Premium Plus,1722.43,2,2022-06-22
+ACC000085,Customer_000085,85,Tech Professional,Consumer,4700 Main St,New York,TX,96318,Premium,1403.45,3,2020-09-23
+ACC000086,Customer_000086,86,Creative Professional,Consumer,1220 Main St,Los Angeles,IL,82748,Free,0.0,4,2023-08-24
+ACC000087,Customer_000087,87,Audiophile,Consumer,3302 Main St,Chicago,CA,68457,Basic,513.11,4,2021-06-11
+ACC000088,Customer_000088,88,Audiophile,Consumer,8335 Main St,Los Angeles,WA,56712,Premium Plus,3342.19,1,2024-10-23
+ACC000089,Customer_000089,89,Home Owner,Consumer,3239 Main St,Seattle,IL,15724,Premium,1634.33,1,2024-05-05
+ACC000090,Customer_000090,90,Creative Professional,Consumer,9999 Main St,New York,NY,97530,Free,0.0,3,2020-08-20
+ACC000091,Customer_000091,91,Audiophile,Consumer,9179 Main St,New York,NY,90521,Free,0.0,3,2024-06-29
+ACC000092,Customer_000092,92,Tech Professional,Consumer,2133 Main St,New York,WA,45641,Premium,714.91,3,2024-05-21
+ACC000093,Customer_000093,93,Home Owner,Consumer,7605 Main St,Seattle,IL,39383,Basic,379.36,1,2020-09-07
+ACC000094,Customer_000094,94,Creative Professional,Consumer,8903 Main St,Chicago,IL,90944,Basic,595.37,2,2024-02-23
+ACC000095,Customer_000095,95,Audiophile,Consumer,6494 Main St,Los Angeles,WA,91858,Premium,1925.73,2,2023-06-07
+ACC000096,Customer_000096,96,Home Owner,Consumer,5952 Main St,New York,CA,69592,Premium Plus,3125.27,4,2023-11-16
+ACC000097,Customer_000097,97,Creative Professional,Consumer,5748 Main St,New York,CA,43871,Premium,1798.59,1,2022-03-28
+ACC000098,Customer_000098,98,Audiophile,Consumer,8887 Main St,Austin,NY,32632,Basic,983.58,4,2023-04-16
+ACC000099,Customer_000099,99,Tech Professional,Consumer,6120 Main St,Los Angeles,CA,67030,Premium,1665.29,3,2023-08-24
+ACC000100,Customer_000100,100,Home Owner,Consumer,5983 Main St,Austin,NY,63147,Premium Plus,3085.7,3,2023-11-16
+ACC000101,Customer_000101,101,Creative Professional,Consumer,3154 Main St,Los Angeles,IL,42663,Free,0.0,2,2020-08-26
+ACC000102,Customer_000102,102,Audiophile,Consumer,6418 Main St,Chicago,IL,54985,Free,0.0,4,2021-07-23
+ACC000103,Customer_000103,103,Creative Professional,Consumer,9104 Main St,New York,CA,50345,Basic,455.55,3,2023-10-11
+ACC000104,Customer_000104,104,Creative Professional,Consumer,3381 Main St,Los Angeles,WA,68472,Free,0.0,4,2021-11-11
+ACC000105,Customer_000105,105,Audiophile,Consumer,3384 Main St,Austin,IL,87903,Basic,698.08,3,2022-03-16
+ACC000106,Customer_000106,106,Tech Professional,Consumer,8181 Main St,Austin,CA,65676,Premium Plus,2986.32,1,2024-02-24
+ACC000107,Customer_000107,107,Audiophile,Consumer,9608 Main St,Austin,NY,26095,Free,0.0,2,2021-04-21
+ACC000108,Customer_000108,108,Tech Professional,Consumer,6145 Main St,New York,CA,18110,Premium,925.21,1,2020-05-24
+ACC000109,Customer_000109,109,Home Owner,Consumer,5093 Main St,Seattle,WA,92477,Basic,553.32,1,2021-02-04
+ACC000110,Customer_000110,110,Home Owner,Consumer,834 Main St,Seattle,IL,23546,Premium Plus,1795.82,3,2022-04-12
+ACC000111,Customer_000111,111,Home Owner,Consumer,2604 Main St,Chicago,NY,13899,Free,0.0,1,2024-02-25
+ACC000112,Customer_000112,112,Tech Professional,Consumer,1789 Main St,Los Angeles,CA,51051,Premium Plus,3259.74,2,2020-08-05
+ACC000113,Customer_000113,113,Tech Professional,Consumer,1234 Main St,Chicago,IL,66808,Free,0.0,2,2022-04-30
+ACC000114,Customer_000114,114,Tech Professional,Consumer,804 Main St,Seattle,CA,45090,Basic,567.33,1,2021-06-28
+ACC000115,Customer_000115,115,Home Owner,Consumer,7854 Main St,Seattle,NY,13108,Free,0.0,4,2023-04-14
+ACC000116,Customer_000116,116,Tech Professional,Consumer,7276 Main St,Austin,WA,15821,Free,0.0,2,2021-12-13
+ACC000117,Customer_000117,117,Audiophile,Consumer,4127 Main St,Los Angeles,WA,48034,Free,0.0,2,2020-02-27
+ACC000118,Customer_000118,118,Audiophile,Consumer,3229 Main St,Austin,CA,57748,Free,0.0,1,2024-06-04
+ACC000119,Customer_000119,119,Audiophile,Consumer,5966 Main St,Los Angeles,CA,48249,Basic,272.27,3,2023-08-07
+ACC000120,Customer_000120,120,Tech Professional,Consumer,3544 Main St,New York,WA,58119,Basic,685.83,3,2021-08-22
+ACC000121,Customer_000121,121,Audiophile,Consumer,6861 Main St,Austin,CA,22402,Premium,2042.05,3,2024-05-01
+ACC000122,Customer_000122,122,Home Owner,Consumer,3572 Main St,Chicago,IL,11449,Free,0.0,4,2020-02-17
+ACC000123,Customer_000123,123,Tech Professional,Consumer,2780 Main St,Chicago,IL,83110,Premium,1932.02,3,2023-03-20
+ACC000124,Customer_000124,124,Creative Professional,Consumer,1906 Main St,Seattle,TX,56060,Free,0.0,1,2023-08-10
+ACC000125,Customer_000125,125,Audiophile,Consumer,9780 Main St,Austin,IL,18117,Premium Plus,1598.63,4,2024-07-06
+ACC000126,Customer_000126,126,Audiophile,Consumer,5112 Main St,Chicago,IL,68973,Premium,1684.51,2,2024-02-14
+ACC000127,Customer_000127,127,Creative Professional,Consumer,5922 Main St,New York,WA,39922,Basic,643.86,4,2021-09-12
+ACC000128,Customer_000128,128,Home Owner,Consumer,6090 Main St,Chicago,TX,84940,Free,0.0,3,2021-11-29
+ACC000129,Customer_000129,129,Tech Professional,Consumer,3269 Main St,Chicago,WA,64906,Premium Plus,2623.01,4,2024-02-07
+ACC000130,Customer_000130,130,Audiophile,Consumer,6988 Main St,Seattle,WA,71214,Free,0.0,3,2021-04-15
+ACC000131,Customer_000131,131,Home Owner,Consumer,4409 Main St,Los Angeles,CA,56564,Basic,480.16,4,2021-01-12
+ACC000132,Customer_000132,132,Audiophile,Consumer,9672 Main St,Seattle,WA,78327,Basic,1008.38,4,2022-01-20
+ACC000133,Customer_000133,133,Audiophile,Consumer,1381 Main St,Austin,NY,87380,Free,0.0,1,2024-04-18
+ACC000134,Customer_000134,134,Audiophile,Consumer,6642 Main St,Chicago,WA,89530,Free,0.0,1,2024-01-20
+ACC000135,Customer_000135,135,Creative Professional,Consumer,582 Main St,Chicago,WA,22829,Premium Plus,2456.46,3,2020-06-04
+ACC000136,Customer_000136,136,Tech Professional,Consumer,7585 Main St,Austin,NY,58254,Free,0.0,1,2020-07-28
+ACC000137,Customer_000137,137,Home Owner,Consumer,3543 Main St,Austin,NY,59888,Basic,417.4,1,2021-11-13
+ACC000138,Customer_000138,138,Creative Professional,Consumer,9424 Main St,Los Angeles,NY,53286,Premium,1660.28,4,2022-07-27
+ACC000139,Customer_000139,139,Tech Professional,Consumer,114 Main St,Austin,IL,95873,Basic,922.82,4,2024-01-29
+ACC000140,Customer_000140,140,Creative Professional,Consumer,284 Main St,Austin,IL,30424,Basic,707.48,4,2022-10-23
+ACC000141,Customer_000141,141,Tech Professional,Consumer,6282 Main St,Austin,NY,62264,Free,0.0,2,2021-08-24
+ACC000142,Customer_000142,142,Home Owner,Consumer,4190 Main St,Seattle,NY,61640,Free,0.0,2,2024-01-31
+ACC000143,Customer_000143,143,Audiophile,Consumer,7464 Main St,Chicago,IL,34436,Basic,1042.17,1,2023-12-10
+ACC000144,Customer_000144,144,Audiophile,Consumer,6827 Main St,Chicago,NY,60449,Premium Plus,1915.4,1,2021-07-02
+ACC000145,Customer_000145,145,Audiophile,Consumer,6207 Main St,Chicago,TX,26807,Premium,1266.88,2,2022-09-30
+ACC000146,Customer_000146,146,Home Owner,Consumer,1807 Main St,Austin,WA,24582,Free,0.0,1,2021-01-26
+ACC000147,Customer_000147,147,Creative Professional,Consumer,6386 Main St,Chicago,WA,80785,Free,0.0,4,2024-07-28
+ACC000148,Customer_000148,148,Creative Professional,Consumer,8500 Main St,New York,IL,29670,Free,0.0,1,2020-01-17
+ACC000149,Customer_000149,149,Tech Professional,Consumer,5360 Main St,Seattle,WA,14331,Premium,2042.37,1,2020-12-21
+ACC000150,Customer_000150,150,Tech Professional,Consumer,9048 Main St,Chicago,CA,62730,Basic,722.74,4,2020-02-10
+ACC000151,Customer_000151,151,Creative Professional,Consumer,168 Main St,New York,TX,70218,Basic,341.6,1,2020-09-28
+ACC000152,Customer_000152,152,Audiophile,Consumer,6406 Main St,Los Angeles,CA,48080,Free,0.0,3,2022-04-18
+ACC000153,Customer_000153,153,Tech Professional,Consumer,8763 Main St,Chicago,CA,35633,Free,0.0,3,2023-05-11
+ACC000154,Customer_000154,154,Audiophile,Consumer,3602 Main St,New York,TX,49271,Basic,546.07,2,2023-09-23
+ACC000155,Customer_000155,155,Creative Professional,Consumer,6623 Main St,Los Angeles,NY,43782,Premium,1320.01,3,2022-04-30
+ACC000156,Customer_000156,156,Tech Professional,Consumer,2504 Main St,Chicago,IL,93952,Premium,925.77,4,2024-09-15
+ACC000157,Customer_000157,157,Home Owner,Consumer,6639 Main St,Los Angeles,IL,90146,Premium Plus,2781.12,4,2022-02-23
+ACC000158,Customer_000158,158,Creative Professional,Consumer,7038 Main St,Los Angeles,WA,81743,Free,0.0,4,2021-11-09
+ACC000159,Customer_000159,159,Home Owner,Consumer,2117 Main St,New York,TX,55332,Free,0.0,3,2024-09-23
+ACC000160,Customer_000160,160,Tech Professional,Consumer,2606 Main St,Los Angeles,NY,34572,Basic,666.02,2,2022-04-09
+ACC000161,Customer_000161,161,Home Owner,Consumer,9533 Main St,Seattle,NY,28381,Premium,1406.66,4,2022-08-11
+ACC000162,Customer_000162,162,Tech Professional,Consumer,3115 Main St,Seattle,CA,57120,Premium,798.72,2,2024-11-04
+ACC000163,Customer_000163,163,Home Owner,Consumer,5783 Main St,New York,CA,71645,Free,0.0,4,2020-03-23
+ACC000164,Customer_000164,164,Home Owner,Consumer,2653 Main St,Los Angeles,TX,64074,Free,0.0,2,2022-08-11
+ACC000165,Customer_000165,165,Tech Professional,Consumer,8385 Main St,New York,CA,18248,Basic,486.33,1,2023-04-23
+ACC000166,Customer_000166,166,Home Owner,Consumer,5013 Main St,Seattle,IL,46157,Free,0.0,2,2020-01-23
+ACC000167,Customer_000167,167,Home Owner,Consumer,3744 Main St,New York,WA,39908,Basic,920.52,1,2024-06-21
+ACC000168,Customer_000168,168,Home Owner,Consumer,6704 Main St,Seattle,IL,52296,Free,0.0,4,2024-06-17
+ACC000169,Customer_000169,169,Creative Professional,Consumer,8199 Main St,Austin,NY,51213,Basic,384.06,3,2024-10-31
+ACC000170,Customer_000170,170,Home Owner,Consumer,2031 Main St,Los Angeles,WA,79460,Premium,1692.61,1,2024-08-02
+ACC000171,Customer_000171,171,Tech Professional,Consumer,5954 Main St,New York,TX,47517,Basic,432.99,2,2020-08-14
+ACC000172,Customer_000172,172,Audiophile,Consumer,9757 Main St,New York,TX,73226,Premium,1672.15,2,2021-02-07
+ACC000173,Customer_000173,173,Tech Professional,Consumer,7293 Main St,Austin,WA,97118,Basic,445.94,4,2020-11-27
+ACC000174,Customer_000174,174,Tech Professional,Consumer,5136 Main St,Chicago,IL,16506,Basic,889.66,4,2020-02-28
+ACC000175,Customer_000175,175,Home Owner,Consumer,9963 Main St,Chicago,CA,10010,Premium,1310.43,1,2021-12-13
+ACC000176,Customer_000176,176,Creative Professional,Consumer,6859 Main St,Seattle,WA,62410,Free,0.0,2,2021-08-18
+ACC000177,Customer_000177,177,Home Owner,Consumer,5866 Main St,Austin,IL,51095,Premium,1013.79,1,2021-03-01
+ACC000178,Customer_000178,178,Tech Professional,Consumer,7553 Main St,Seattle,IL,51376,Free,0.0,4,2021-06-05
+ACC000179,Customer_000179,179,Home Owner,Consumer,8609 Main St,Chicago,CA,16002,Free,0.0,2,2020-02-05
+ACC000180,Customer_000180,180,Tech Professional,Consumer,3010 Main St,Seattle,TX,93178,Premium,1648.81,3,2022-06-01
+ACC000181,Customer_000181,181,Home Owner,Consumer,2667 Main St,Austin,CA,67899,Premium,1761.41,4,2020-06-12
+ACC000182,Customer_000182,182,Audiophile,Consumer,964 Main St,Los Angeles,TX,61684,Basic,998.85,1,2021-05-03
+ACC000183,Customer_000183,183,Creative Professional,Consumer,2353 Main St,Austin,IL,63154,Free,0.0,3,2020-04-17
+ACC000184,Customer_000184,184,Creative Professional,Consumer,5727 Main St,Los Angeles,TX,18521,Free,0.0,4,2020-11-14
+ACC000185,Customer_000185,185,Tech Professional,Consumer,2841 Main St,Los Angeles,IL,68013,Free,0.0,4,2022-10-16
+ACC000186,Customer_000186,186,Tech Professional,Consumer,388 Main St,New York,TX,21618,Basic,272.01,4,2023-12-18
+ACC000187,Customer_000187,187,Audiophile,Consumer,9825 Main St,New York,WA,19944,Basic,489.49,3,2023-08-09
+ACC000188,Customer_000188,188,Creative Professional,Consumer,8047 Main St,New York,TX,32793,Basic,246.16,3,2024-08-26
+ACC000189,Customer_000189,189,Audiophile,Consumer,9264 Main St,Los Angeles,TX,34950,Premium,757.75,3,2022-06-07
+ACC000190,Customer_000190,190,Creative Professional,Consumer,1527 Main St,Austin,TX,82294,Basic,930.15,4,2023-04-22
+ACC000191,Customer_000191,191,Home Owner,Consumer,2413 Main St,Chicago,IL,95569,Premium,1975.74,4,2020-02-11
+ACC000192,Customer_000192,192,Home Owner,Consumer,1012 Main St,Chicago,CA,61708,Basic,652.51,4,2024-01-25
+ACC000193,Customer_000193,193,Creative Professional,Consumer,3501 Main St,Los Angeles,CA,73862,Free,0.0,1,2024-08-02
+ACC000194,Customer_000194,194,Home Owner,Consumer,4064 Main St,Austin,IL,30901,Basic,1018.68,2,2020-06-17
+ACC000195,Customer_000195,195,Creative Professional,Consumer,8980 Main St,Chicago,NY,85974,Basic,560.87,3,2024-02-10
+ACC000196,Customer_000196,196,Creative Professional,Consumer,5828 Main St,Seattle,NY,14809,Basic,900.84,2,2023-08-06
+ACC000197,Customer_000197,197,Audiophile,Consumer,6440 Main St,Los Angeles,IL,44552,Free,0.0,3,2023-04-16
+ACC000198,Customer_000198,198,Creative Professional,Consumer,3839 Main St,Los Angeles,WA,95953,Premium Plus,2301.59,1,2023-01-28
+ACC000199,Customer_000199,199,Creative Professional,Consumer,3612 Main St,Chicago,IL,51978,Premium Plus,2069.74,3,2023-01-25
+ACC000200,Customer_000200,200,Audiophile,Consumer,4373 Main St,Austin,TX,77287,Premium,576.87,2,2021-08-23
+ACC000201,Customer_000201,201,Audiophile,Consumer,2753 Main St,Los Angeles,TX,58178,Basic,301.8,3,2020-07-19
+ACC000202,Customer_000202,202,Home Owner,Consumer,7247 Main St,New York,TX,95888,Free,0.0,3,2023-01-02
+ACC000203,Customer_000203,203,Audiophile,Consumer,7955 Main St,New York,TX,25977,Basic,640.82,2,2024-07-10
+ACC000204,Customer_000204,204,Home Owner,Consumer,1403 Main St,Los Angeles,IL,44141,Premium,909.64,1,2022-09-01
+ACC000205,Customer_000205,205,Creative Professional,Consumer,834 Main St,Los Angeles,WA,26406,Basic,1043.69,2,2020-03-10
+ACC000206,Customer_000206,206,Home Owner,Consumer,9583 Main St,Seattle,CA,25476,Basic,677.27,3,2023-09-27
+ACC000207,Customer_000207,207,Creative Professional,Consumer,1607 Main St,Seattle,CA,74062,Free,0.0,4,2021-12-21
+ACC000208,Customer_000208,208,Tech Professional,Consumer,5548 Main St,Chicago,TX,76337,Free,0.0,2,2023-10-10
+ACC000209,Customer_000209,209,Audiophile,Consumer,2592 Main St,Austin,TX,82764,Premium,830.58,2,2020-01-30
+ACC000210,Customer_000210,210,Tech Professional,Consumer,2097 Main St,Austin,WA,65174,Free,0.0,2,2024-04-24
+ACC000211,Customer_000211,211,Creative Professional,Consumer,9840 Main St,Los Angeles,IL,81168,Free,0.0,3,2024-05-05
+ACC000212,Customer_000212,212,Tech Professional,Consumer,1216 Main St,New York,TX,55313,Free,0.0,2,2023-09-15
+ACC000213,Customer_000213,213,Home Owner,Consumer,3486 Main St,Austin,TX,83650,Free,0.0,1,2023-12-28
+ACC000214,Customer_000214,214,Audiophile,Consumer,675 Main St,Los Angeles,CA,62759,Premium,1495.98,2,2023-04-28
+ACC000215,Customer_000215,215,Tech Professional,Consumer,3023 Main St,Austin,WA,67642,Premium Plus,865.66,3,2022-12-15
+ACC000216,Customer_000216,216,Creative Professional,Consumer,5614 Main St,Seattle,NY,34580,Free,0.0,4,2020-02-11
+ACC000217,Customer_000217,217,Creative Professional,Consumer,8089 Main St,Chicago,TX,21587,Basic,391.22,2,2022-12-06
+ACC000218,Customer_000218,218,Tech Professional,Consumer,5007 Main St,Seattle,CA,59871,Free,0.0,2,2021-09-01
+ACC000219,Customer_000219,219,Home Owner,Consumer,823 Main St,Seattle,WA,41183,Free,0.0,4,2020-07-04
+ACC000220,Customer_000220,220,Creative Professional,Consumer,5251 Main St,Austin,NY,31649,Free,0.0,1,2022-08-28
+ACC000221,Customer_000221,221,Tech Professional,Consumer,7829 Main St,Austin,CA,97434,Free,0.0,4,2024-02-17
+ACC000222,Customer_000222,222,Creative Professional,Consumer,5044 Main St,Los Angeles,CA,20903,Free,0.0,1,2023-03-08
+ACC000223,Customer_000223,223,Creative Professional,Consumer,664 Main St,Los Angeles,WA,75421,Free,0.0,3,2022-11-25
+ACC000224,Customer_000224,224,Home Owner,Consumer,7431 Main St,New York,IL,64737,Premium,531.67,4,2020-06-20
+ACC000225,Customer_000225,225,Home Owner,Consumer,1224 Main St,Los Angeles,NY,38425,Free,0.0,2,2021-06-03
+ACC000226,Customer_000226,226,Creative Professional,Consumer,2563 Main St,Austin,IL,99446,Basic,667.47,1,2024-08-15
+ACC000227,Customer_000227,227,Tech Professional,Consumer,1296 Main St,Los Angeles,TX,94245,Premium Plus,3178.03,3,2023-09-29
+ACC000228,Customer_000228,228,Audiophile,Consumer,8847 Main St,New York,WA,51146,Basic,838.22,3,2020-10-08
+ACC000229,Customer_000229,229,Creative Professional,Consumer,8179 Main St,Chicago,TX,11140,Free,0.0,4,2021-12-14
+ACC000230,Customer_000230,230,Tech Professional,Consumer,1912 Main St,Seattle,WA,84366,Free,0.0,4,2024-06-09
+ACC000231,Customer_000231,231,Home Owner,Consumer,9346 Main St,Seattle,WA,49301,Premium,984.26,1,2020-03-31
+ACC000232,Customer_000232,232,Home Owner,Consumer,8531 Main St,Austin,TX,52091,Free,0.0,1,2024-05-26
+ACC000233,Customer_000233,233,Creative Professional,Consumer,2161 Main St,Austin,TX,91410,Free,0.0,1,2022-04-14
+ACC000234,Customer_000234,234,Home Owner,Consumer,7453 Main St,Chicago,WA,25266,Free,0.0,3,2023-12-11
+ACC000235,Customer_000235,235,Audiophile,Consumer,6947 Main St,New York,IL,78895,Basic,624.1,1,2023-07-31
+ACC000236,Customer_000236,236,Tech Professional,Consumer,8580 Main St,Austin,CA,96395,Premium,1372.59,4,2024-02-11
+ACC000237,Customer_000237,237,Audiophile,Consumer,6319 Main St,New York,CA,24560,Premium,552.52,2,2020-04-26
+ACC000238,Customer_000238,238,Tech Professional,Consumer,7167 Main St,Austin,WA,16734,Free,0.0,3,2022-11-09
+ACC000239,Customer_000239,239,Audiophile,Consumer,8578 Main St,Austin,WA,94453,Premium,629.88,2,2022-02-11
+ACC000240,Customer_000240,240,Home Owner,Consumer,1894 Main St,Austin,NY,10944,Basic,900.31,2,2024-09-14
+ACC000241,Customer_000241,241,Tech Professional,Consumer,1714 Main St,Austin,IL,72232,Free,0.0,4,2023-03-21
+ACC000242,Customer_000242,242,Creative Professional,Consumer,8563 Main St,Chicago,TX,38043,Free,0.0,2,2023-06-06
+ACC000243,Customer_000243,243,Tech Professional,Consumer,7900 Main St,Chicago,WA,75475,Free,0.0,3,2020-06-03
+ACC000244,Customer_000244,244,Tech Professional,Consumer,4161 Main St,New York,TX,73100,Basic,680.13,1,2020-09-15
+ACC000245,Customer_000245,245,Creative Professional,Consumer,3742 Main St,Austin,WA,63094,Premium,1545.55,1,2020-06-27
+ACC000246,Customer_000246,246,Home Owner,Consumer,1311 Main St,Austin,CA,52884,Free,0.0,3,2021-10-01
+ACC000247,Customer_000247,247,Audiophile,Consumer,2036 Main St,New York,CA,25578,Free,0.0,2,2021-01-29
+ACC000248,Customer_000248,248,Home Owner,Consumer,8642 Main St,Seattle,TX,46027,Free,0.0,4,2021-05-03
+ACC000249,Customer_000249,249,Tech Professional,Consumer,8854 Main St,Austin,NY,26709,Basic,1037.67,1,2023-03-03
+ACC000250,Customer_000250,250,Tech Professional,Consumer,8831 Main St,Austin,CA,38217,Free,0.0,4,2023-12-06
+ACC000251,Customer_000251,251,Home Owner,Consumer,151 Main St,Chicago,NY,64718,Premium Plus,858.86,1,2020-05-10
+ACC000252,Customer_000252,252,Audiophile,Consumer,7253 Main St,Austin,CA,21941,Free,0.0,2,2024-01-02
+ACC000253,Customer_000253,253,Audiophile,Consumer,364 Main St,Chicago,CA,22314,Free,0.0,1,2024-02-04
+ACC000254,Customer_000254,254,Home Owner,Consumer,4590 Main St,Chicago,CA,69226,Free,0.0,2,2024-08-24
+ACC000255,Customer_000255,255,Creative Professional,Consumer,7554 Main St,New York,IL,78218,Free,0.0,2,2020-12-11
+ACC000256,Customer_000256,256,Tech Professional,Consumer,3918 Main St,Austin,WA,59450,Basic,569.2,2,2024-10-05
+ACC000257,Customer_000257,257,Audiophile,Consumer,5717 Main St,Los Angeles,IL,44733,Premium,786.89,1,2022-06-03
+ACC000258,Customer_000258,258,Home Owner,Consumer,140 Main St,Chicago,NY,48120,Free,0.0,4,2021-04-27
+ACC000259,Customer_000259,259,Creative Professional,Consumer,1500 Main St,Los Angeles,TX,63028,Premium Plus,2058.53,4,2020-11-23
+ACC000260,Customer_000260,260,Home Owner,Consumer,4723 Main St,New York,CA,88862,Free,0.0,2,2021-11-03
+ACC000261,Customer_000261,261,Tech Professional,Consumer,7130 Main St,Los Angeles,IL,75828,Free,0.0,1,2020-02-01
+ACC000262,Customer_000262,262,Home Owner,Consumer,5230 Main St,New York,WA,92644,Free,0.0,4,2024-11-02
+ACC000263,Customer_000263,263,Tech Professional,Consumer,2751 Main St,New York,NY,24426,Free,0.0,4,2024-06-09
+ACC000264,Customer_000264,264,Creative Professional,Consumer,3295 Main St,Austin,WA,37251,Basic,693.93,4,2021-09-04
+ACC000265,Customer_000265,265,Tech Professional,Consumer,3444 Main St,Los Angeles,WA,92154,Free,0.0,2,2020-05-16
+ACC000266,Customer_000266,266,Creative Professional,Consumer,9993 Main St,New York,IL,20516,Free,0.0,3,2023-06-26
+ACC000267,Customer_000267,267,Home Owner,Consumer,3059 Main St,Seattle,CA,51915,Free,0.0,4,2023-09-09
+ACC000268,Customer_000268,268,Audiophile,Consumer,8180 Main St,Seattle,WA,54785,Free,0.0,3,2021-06-07
+ACC000269,Customer_000269,269,Audiophile,Consumer,3151 Main St,New York,IL,88719,Free,0.0,3,2020-07-08
+ACC000270,Customer_000270,270,Creative Professional,Consumer,2264 Main St,New York,IL,23137,Premium,1567.28,1,2023-11-22
+ACC000271,Customer_000271,271,Creative Professional,Consumer,4384 Main St,Chicago,TX,10220,Premium Plus,2354.88,3,2024-11-22
+ACC000272,Customer_000272,272,Tech Professional,Consumer,9172 Main St,New York,TX,83267,Free,0.0,3,2021-03-29
+ACC000273,Customer_000273,273,Creative Professional,Consumer,9443 Main St,Austin,NY,88334,Premium Plus,3009.95,1,2023-09-01
+ACC000274,Customer_000274,274,Tech Professional,Consumer,2483 Main St,Los Angeles,NY,36526,Free,0.0,3,2020-10-28
+ACC000275,Customer_000275,275,Home Owner,Consumer,9997 Main St,Chicago,NY,10261,Premium,1587.48,1,2021-01-09
+ACC000276,Customer_000276,276,Tech Professional,Consumer,9881 Main St,Los Angeles,IL,49131,Free,0.0,2,2023-07-13
+ACC000277,Customer_000277,277,Audiophile,Consumer,2741 Main St,Seattle,TX,82432,Free,0.0,1,2020-01-08
+ACC000278,Customer_000278,278,Tech Professional,Consumer,8209 Main St,Chicago,TX,51884,Free,0.0,4,2023-05-18
+ACC000279,Customer_000279,279,Audiophile,Consumer,5525 Main St,New York,CA,23436,Free,0.0,2,2020-05-12
+ACC000280,Customer_000280,280,Tech Professional,Consumer,8473 Main St,Chicago,CA,43123,Basic,269.74,2,2023-09-03
+ACC000281,Customer_000281,281,Home Owner,Consumer,7887 Main St,Chicago,WA,18671,Basic,749.77,3,2024-05-11
+ACC000282,Customer_000282,282,Home Owner,Consumer,1917 Main St,Austin,NY,10022,Free,0.0,2,2020-12-08
+ACC000283,Customer_000283,283,Audiophile,Consumer,5327 Main St,New York,CA,94844,Basic,846.98,2,2020-11-07
+ACC000284,Customer_000284,284,Creative Professional,Consumer,2166 Main St,Chicago,IL,53805,Free,0.0,1,2022-07-16
+ACC000285,Customer_000285,285,Creative Professional,Consumer,7020 Main St,Chicago,TX,34188,Free,0.0,4,2021-02-14
+ACC000286,Customer_000286,286,Home Owner,Consumer,3637 Main St,Chicago,WA,85186,Free,0.0,3,2022-05-28
+ACC000287,Customer_000287,287,Home Owner,Consumer,7500 Main St,Austin,IL,86197,Premium,1922.77,3,2021-01-14
+ACC000288,Customer_000288,288,Tech Professional,Consumer,9984 Main St,Chicago,IL,69225,Basic,251.98,3,2023-10-01
+ACC000289,Customer_000289,289,Tech Professional,Consumer,9013 Main St,New York,TX,47148,Basic,827.26,4,2020-03-05
+ACC000290,Customer_000290,290,Home Owner,Consumer,8689 Main St,Los Angeles,IL,82011,Free,0.0,3,2020-04-28
+ACC000291,Customer_000291,291,Home Owner,Consumer,972 Main St,Austin,TX,18747,Free,0.0,3,2023-01-28
+ACC000292,Customer_000292,292,Audiophile,Consumer,2228 Main St,Los Angeles,TX,59181,Free,0.0,3,2022-08-24
+ACC000293,Customer_000293,293,Tech Professional,Consumer,1371 Main St,Los Angeles,TX,35534,Basic,655.09,3,2021-01-25
+ACC000294,Customer_000294,294,Audiophile,Consumer,2386 Main St,Seattle,IL,35980,Premium,2080.12,3,2020-01-04
+ACC000295,Customer_000295,295,Audiophile,Consumer,1176 Main St,Chicago,NY,90141,Free,0.0,4,2020-02-26
+ACC000296,Customer_000296,296,Home Owner,Consumer,7178 Main St,Chicago,IL,55990,Basic,665.46,1,2021-07-17
+ACC000297,Customer_000297,297,Tech Professional,Consumer,7629 Main St,Los Angeles,WA,10678,Premium Plus,2985.11,2,2021-05-04
+ACC000298,Customer_000298,298,Home Owner,Consumer,8809 Main St,Chicago,TX,55046,Free,0.0,4,2023-03-08
+ACC000299,Customer_000299,299,Creative Professional,Consumer,3172 Main St,Los Angeles,CA,43031,Basic,595.8,3,2022-11-15
+ACC000300,Customer_000300,300,Creative Professional,Consumer,9373 Main St,Seattle,WA,39277,Basic,647.83,1,2021-06-28
+ACC000301,Customer_000301,301,Audiophile,Consumer,1047 Main St,Los Angeles,NY,34879,Premium,1500.73,1,2023-01-09
+ACC000302,Customer_000302,302,Audiophile,Consumer,4832 Main St,Los Angeles,WA,26465,Basic,469.29,2,2023-11-08
+ACC000303,Customer_000303,303,Home Owner,Consumer,5519 Main St,Seattle,IL,63004,Basic,416.91,1,2024-07-14
+ACC000304,Customer_000304,304,Home Owner,Consumer,5332 Main St,Los Angeles,WA,64876,Free,0.0,3,2020-04-21
+ACC000305,Customer_000305,305,Home Owner,Consumer,3737 Main St,Seattle,IL,99893,Free,0.0,1,2022-08-25
+ACC000306,Customer_000306,306,Tech Professional,Consumer,3294 Main St,Seattle,CA,96587,Premium,923.23,2,2021-02-06
+ACC000307,Customer_000307,307,Tech Professional,Consumer,205 Main St,Los Angeles,CA,31028,Free,0.0,4,2022-11-23
+ACC000308,Customer_000308,308,Tech Professional,Consumer,9223 Main St,New York,NY,89038,Basic,825.33,1,2020-10-01
+ACC000309,Customer_000309,309,Audiophile,Consumer,5270 Main St,New York,WA,88868,Premium,1329.14,3,2021-07-16
+ACC000310,Customer_000310,310,Audiophile,Consumer,8005 Main St,Seattle,TX,85739,Premium Plus,1164.51,1,2023-08-14
+ACC000311,Customer_000311,311,Tech Professional,Consumer,9581 Main St,Austin,CA,34029,Free,0.0,2,2023-10-24
+ACC000312,Customer_000312,312,Tech Professional,Consumer,6766 Main St,Austin,IL,58896,Free,0.0,2,2021-05-09
+ACC000313,Customer_000313,313,Home Owner,Consumer,7850 Main St,Seattle,WA,86742,Premium,1199.79,1,2024-07-23
+ACC000314,Customer_000314,314,Audiophile,Consumer,2647 Main St,Seattle,CA,65613,Free,0.0,2,2020-05-15
+ACC000315,Customer_000315,315,Creative Professional,Consumer,7427 Main St,Los Angeles,TX,43436,Premium,1917.62,4,2022-04-23
+ACC000316,Customer_000316,316,Creative Professional,Consumer,8944 Main St,Seattle,CA,71737,Basic,345.26,3,2021-05-15
+ACC000317,Customer_000317,317,Audiophile,Consumer,3069 Main St,Seattle,NY,22800,Premium Plus,2966.57,1,2023-04-06
+ACC000318,Customer_000318,318,Home Owner,Consumer,6209 Main St,Los Angeles,TX,23042,Free,0.0,2,2022-09-12
+ACC000319,Customer_000319,319,Creative Professional,Consumer,8781 Main St,Austin,IL,62445,Free,0.0,2,2020-12-26
+ACC000320,Customer_000320,320,Home Owner,Consumer,8995 Main St,Seattle,TX,28762,Premium,1843.74,3,2021-07-09
+ACC000321,Customer_000321,321,Tech Professional,Consumer,1548 Main St,Seattle,WA,78253,Premium Plus,1128.32,3,2020-05-09
+ACC000322,Customer_000322,322,Home Owner,Consumer,5635 Main St,New York,WA,96763,Basic,326.3,1,2022-02-01
+ACC000323,Customer_000323,323,Tech Professional,Consumer,8202 Main St,Austin,IL,31509,Premium,571.67,4,2021-03-24
+ACC000324,Customer_000324,324,Tech Professional,Consumer,5990 Main St,Seattle,IL,99598,Basic,349.24,3,2021-07-06
+ACC000325,Customer_000325,325,Tech Professional,Consumer,8498 Main St,New York,CA,87712,Premium,955.25,2,2024-08-09
+ACC000326,Customer_000326,326,Creative Professional,Consumer,6980 Main St,Los Angeles,TX,29635,Free,0.0,4,2020-06-08
+ACC000327,Customer_000327,327,Home Owner,Consumer,4288 Main St,Austin,TX,13460,Basic,241.13,2,2023-08-14
+ACC000328,Customer_000328,328,Tech Professional,Consumer,2507 Main St,Los Angeles,WA,96805,Free,0.0,1,2024-05-27
+ACC000329,Customer_000329,329,Home Owner,Consumer,7491 Main St,Austin,TX,74663,Basic,863.75,4,2023-12-17
+ACC000330,Customer_000330,330,Audiophile,Consumer,1630 Main St,Austin,TX,24376,Basic,248.17,4,2022-08-10
+ACC000331,Customer_000331,331,Home Owner,Consumer,8010 Main St,Los Angeles,IL,98824,Premium,1567.14,3,2021-09-19
+ACC000332,Customer_000332,332,Tech Professional,Consumer,2700 Main St,New York,TX,36039,Premium,557.52,1,2021-12-28
+ACC000333,Customer_000333,333,Audiophile,Consumer,7445 Main St,New York,IL,11476,Free,0.0,1,2024-02-11
+ACC000334,Customer_000334,334,Tech Professional,Consumer,2965 Main St,Seattle,IL,83410,Premium,2045.2,4,2021-03-21
+ACC000335,Customer_000335,335,Home Owner,Consumer,760 Main St,Seattle,CA,25019,Free,0.0,4,2024-01-18
+ACC000336,Customer_000336,336,Tech Professional,Consumer,1437 Main St,Chicago,NY,86540,Free,0.0,2,2023-03-11
+ACC000337,Customer_000337,337,Creative Professional,Consumer,9791 Main St,Los Angeles,CA,36936,Free,0.0,3,2022-04-10
+ACC000338,Customer_000338,338,Creative Professional,Consumer,1742 Main St,Austin,NY,89249,Basic,709.74,1,2024-11-20
+ACC000339,Customer_000339,339,Tech Professional,Consumer,3682 Main St,Los Angeles,CA,98918,Premium,1593.3,1,2021-11-24
+ACC000340,Customer_000340,340,Creative Professional,Consumer,3036 Main St,Chicago,WA,83458,Premium Plus,2718.35,2,2021-06-15
+ACC000341,Customer_000341,341,Creative Professional,Consumer,8722 Main St,Seattle,CA,81340,Basic,1037.47,2,2024-05-26
+ACC000342,Customer_000342,342,Creative Professional,Consumer,7791 Main St,Seattle,WA,75577,Free,0.0,3,2022-06-28
+ACC000343,Customer_000343,343,Tech Professional,Consumer,2779 Main St,Austin,IL,86345,Free,0.0,2,2022-11-28
+ACC000344,Customer_000344,344,Audiophile,Consumer,7988 Main St,Chicago,TX,54714,Basic,287.36,4,2023-10-29
+ACC000345,Customer_000345,345,Creative Professional,Consumer,594 Main St,Seattle,WA,17263,Basic,645.67,1,2024-07-28
+ACC000346,Customer_000346,346,Audiophile,Consumer,440 Main St,Los Angeles,NY,14776,Premium,646.86,4,2024-01-12
+ACC000347,Customer_000347,347,Tech Professional,Consumer,7867 Main St,Austin,WA,42605,Basic,821.41,2,2021-11-07
+ACC000348,Customer_000348,348,Creative Professional,Consumer,3658 Main St,Austin,CA,96457,Basic,900.04,1,2021-05-29
+ACC000349,Customer_000349,349,Tech Professional,Consumer,5001 Main St,Los Angeles,WA,55105,Free,0.0,1,2020-11-30
+ACC000350,Customer_000350,350,Tech Professional,Consumer,1377 Main St,New York,CA,21178,Free,0.0,2,2024-05-26
+ACC000351,Customer_000351,351,Audiophile,Consumer,3459 Main St,Los Angeles,IL,15845,Free,0.0,3,2023-04-23
+ACC000352,Customer_000352,352,Home Owner,Consumer,5499 Main St,Chicago,TX,79065,Premium,1243.62,2,2021-02-23
+ACC000353,Customer_000353,353,Audiophile,Consumer,7570 Main St,New York,CA,12309,Basic,280.4,2,2023-07-07
+ACC000354,Customer_000354,354,Home Owner,Consumer,2300 Main St,Los Angeles,CA,86137,Basic,279.53,2,2021-03-20
+ACC000355,Customer_000355,355,Creative Professional,Consumer,6113 Main St,Chicago,TX,38898,Basic,1026.59,4,2024-05-09
+ACC000356,Customer_000356,356,Audiophile,Consumer,4028 Main St,Chicago,CA,14912,Free,0.0,1,2023-11-21
+ACC000357,Customer_000357,357,Audiophile,Consumer,6835 Main St,Austin,TX,15337,Premium Plus,840.18,3,2020-05-24
+ACC000358,Customer_000358,358,Audiophile,Consumer,7636 Main St,Austin,NY,38053,Basic,491.12,2,2022-09-09
+ACC000359,Customer_000359,359,Home Owner,Consumer,256 Main St,Chicago,NY,32629,Basic,537.74,1,2024-07-30
+ACC000360,Customer_000360,360,Creative Professional,Consumer,2522 Main St,Chicago,TX,88854,Basic,920.36,4,2020-12-09
+ACC000361,Customer_000361,361,Creative Professional,Consumer,9274 Main St,Seattle,WA,37712,Basic,679.91,3,2022-04-28
+ACC000362,Customer_000362,362,Tech Professional,Consumer,5740 Main St,Chicago,CA,57777,Basic,1037.87,4,2021-05-24
+ACC000363,Customer_000363,363,Home Owner,Consumer,3994 Main St,Seattle,NY,15082,Free,0.0,4,2021-01-13
+ACC000364,Customer_000364,364,Audiophile,Consumer,7345 Main St,Los Angeles,NY,50466,Basic,825.95,1,2021-04-09
+ACC000365,Customer_000365,365,Home Owner,Consumer,4538 Main St,Chicago,IL,92272,Basic,484.45,2,2022-12-04
+ACC000366,Customer_000366,366,Tech Professional,Consumer,9429 Main St,New York,TX,83922,Free,0.0,4,2024-02-18
+ACC000367,Customer_000367,367,Audiophile,Consumer,7574 Main St,Los Angeles,WA,38258,Basic,369.18,2,2021-07-26
+ACC000368,Customer_000368,368,Audiophile,Consumer,1775 Main St,Austin,TX,62378,Free,0.0,1,2024-01-31
+ACC000369,Customer_000369,369,Audiophile,Consumer,2092 Main St,New York,TX,98155,Free,0.0,3,2020-08-25
+ACC000370,Customer_000370,370,Home Owner,Consumer,5171 Main St,New York,CA,71276,Basic,528.17,1,2021-07-09
+ACC000371,Customer_000371,371,Tech Professional,Consumer,9065 Main St,New York,IL,95377,Free,0.0,4,2021-08-31
+ACC000372,Customer_000372,372,Tech Professional,Consumer,9614 Main St,Los Angeles,CA,25805,Free,0.0,3,2024-07-10
+ACC000373,Customer_000373,373,Creative Professional,Consumer,2428 Main St,Seattle,CA,92478,Free,0.0,1,2022-05-21
+ACC000374,Customer_000374,374,Home Owner,Consumer,5214 Main St,Austin,WA,21061,Basic,384.94,3,2024-03-30
+ACC000375,Customer_000375,375,Creative Professional,Consumer,7157 Main St,Los Angeles,WA,30068,Free,0.0,4,2020-11-20
+ACC000376,Customer_000376,376,Creative Professional,Consumer,4394 Main St,Chicago,IL,85434,Basic,296.12,3,2022-11-06
+ACC000377,Customer_000377,377,Home Owner,Consumer,1547 Main St,Chicago,NY,55184,Free,0.0,2,2023-09-19
+ACC000378,Customer_000378,378,Tech Professional,Consumer,5028 Main St,New York,TX,47575,Premium Plus,1932.29,1,2020-07-20
+ACC000379,Customer_000379,379,Home Owner,Consumer,5251 Main St,New York,IL,21793,Free,0.0,4,2021-07-19
+ACC000380,Customer_000380,380,Audiophile,Consumer,2331 Main St,Seattle,TX,45703,Premium,1470.25,3,2020-05-25
+ACC000381,Customer_000381,381,Audiophile,Consumer,477 Main St,Los Angeles,TX,11335,Premium,698.81,4,2024-03-26
+ACC000382,Customer_000382,382,Home Owner,Consumer,9940 Main St,New York,WA,15641,Basic,367.2,3,2023-09-27
+ACC000383,Customer_000383,383,Tech Professional,Consumer,6489 Main St,Seattle,TX,59873,Premium,1147.96,1,2024-02-10
+ACC000384,Customer_000384,384,Creative Professional,Consumer,9292 Main St,Los Angeles,CA,38484,Basic,336.34,3,2020-07-02
+ACC000385,Customer_000385,385,Audiophile,Consumer,2815 Main St,Seattle,IL,39902,Premium,705.17,1,2021-06-18
+ACC000386,Customer_000386,386,Tech Professional,Consumer,6097 Main St,Los Angeles,CA,26803,Premium,1163.27,2,2023-01-20
+ACC000387,Customer_000387,387,Audiophile,Consumer,5778 Main St,Chicago,CA,83933,Basic,313.08,3,2021-04-19
+ACC000388,Customer_000388,388,Home Owner,Consumer,6235 Main St,Los Angeles,TX,41416,Basic,803.73,2,2020-07-16
+ACC000389,Customer_000389,389,Audiophile,Consumer,4125 Main St,Seattle,CA,94585,Premium Plus,970.67,1,2023-09-15
+ACC000390,Customer_000390,390,Tech Professional,Consumer,9106 Main St,Austin,NY,85318,Premium,504.89,4,2023-08-28
+ACC000391,Customer_000391,391,Tech Professional,Consumer,6491 Main St,New York,IL,19495,Premium Plus,3427.52,1,2023-08-30
+ACC000392,Customer_000392,392,Home Owner,Consumer,766 Main St,New York,TX,31179,Free,0.0,1,2020-06-12
+ACC000393,Customer_000393,393,Audiophile,Consumer,1584 Main St,Seattle,WA,20762,Free,0.0,4,2024-09-04
+ACC000394,Customer_000394,394,Tech Professional,Consumer,3183 Main St,Austin,WA,81067,Basic,618.64,3,2020-04-24
+ACC000395,Customer_000395,395,Creative Professional,Consumer,6125 Main St,New York,CA,34048,Free,0.0,4,2020-07-03
+ACC000396,Customer_000396,396,Audiophile,Consumer,4649 Main St,Chicago,WA,53389,Premium,1840.27,1,2020-08-12
+ACC000397,Customer_000397,397,Tech Professional,Consumer,3121 Main St,Los Angeles,CA,17036,Basic,989.32,1,2020-01-21
+ACC000398,Customer_000398,398,Home Owner,Consumer,1549 Main St,Austin,CA,60496,Free,0.0,2,2021-08-02
+ACC000399,Customer_000399,399,Creative Professional,Consumer,6855 Main St,Los Angeles,NY,44896,Premium,1546.76,4,2022-09-08
+ACC000400,Customer_000400,400,Tech Professional,Consumer,4757 Main St,Seattle,IL,75153,Basic,525.15,3,2021-09-18
+ACC000401,Customer_000401,401,Tech Professional,Consumer,4151 Main St,Chicago,IL,69961,Free,0.0,1,2020-09-02
+ACC000402,Customer_000402,402,Home Owner,Consumer,6320 Main St,Chicago,NY,35548,Basic,648.05,1,2023-07-19
+ACC000403,Customer_000403,403,Creative Professional,Consumer,2063 Main St,Austin,CA,40248,Premium,2083.07,4,2023-07-14
+ACC000404,Customer_000404,404,Home Owner,Consumer,6582 Main St,Los Angeles,CA,82201,Premium Plus,1916.03,4,2023-07-27
+ACC000405,Customer_000405,405,Creative Professional,Consumer,5491 Main St,Chicago,WA,93557,Premium Plus,2573.73,3,2024-05-01
+ACC000406,Customer_000406,406,Tech Professional,Consumer,9458 Main St,New York,CA,89239,Basic,1039.21,1,2022-06-24
+ACC000407,Customer_000407,407,Home Owner,Consumer,7323 Main St,New York,CA,30202,Premium,1731.59,3,2023-11-15
+ACC000408,Customer_000408,408,Home Owner,Consumer,2824 Main St,Chicago,TX,86049,Premium,1909.7,1,2023-06-30
+ACC000409,Customer_000409,409,Home Owner,Consumer,868 Main St,New York,WA,69922,Basic,301.52,4,2020-01-18
+ACC000410,Customer_000410,410,Creative Professional,Consumer,4108 Main St,New York,WA,82302,Premium,798.38,2,2021-12-14
+ACC000411,Customer_000411,411,Audiophile,Consumer,1160 Main St,Chicago,NY,45346,Basic,863.11,1,2022-03-02
+ACC000412,Customer_000412,412,Audiophile,Consumer,8947 Main St,Seattle,IL,90180,Free,0.0,2,2023-06-21
+ACC000413,Customer_000413,413,Tech Professional,Consumer,6207 Main St,Los Angeles,TX,66406,Premium Plus,2089.07,2,2020-01-21
+ACC000414,Customer_000414,414,Tech Professional,Consumer,6701 Main St,Los Angeles,CA,54275,Basic,865.14,2,2023-12-19
+ACC000415,Customer_000415,415,Creative Professional,Consumer,2819 Main St,Chicago,NY,15232,Basic,863.01,4,2022-01-20
+ACC000416,Customer_000416,416,Home Owner,Consumer,6207 Main St,Los Angeles,CA,76456,Premium,1618.41,4,2020-10-12
+ACC000417,Customer_000417,417,Audiophile,Consumer,5239 Main St,Austin,CA,33352,Premium,949.75,2,2023-04-21
+ACC000418,Customer_000418,418,Home Owner,Consumer,6142 Main St,New York,NY,76163,Basic,350.6,1,2022-10-08
+ACC000419,Customer_000419,419,Creative Professional,Consumer,9645 Main St,Chicago,NY,96653,Free,0.0,4,2020-07-01
+ACC000420,Customer_000420,420,Creative Professional,Consumer,432 Main St,Seattle,CA,67557,Basic,381.9,3,2023-12-27
+ACC000421,Customer_000421,421,Home Owner,Consumer,664 Main St,New York,CA,32220,Basic,336.82,3,2024-10-26
+ACC000422,Customer_000422,422,Creative Professional,Consumer,9877 Main St,Chicago,WA,82012,Free,0.0,1,2023-06-05
+ACC000423,Customer_000423,423,Tech Professional,Consumer,3118 Main St,New York,IL,26260,Free,0.0,1,2020-09-16
+ACC000424,Customer_000424,424,Home Owner,Consumer,8376 Main St,Los Angeles,WA,79023,Free,0.0,3,2024-10-10
+ACC000425,Customer_000425,425,Home Owner,Consumer,5578 Main St,Chicago,CA,26518,Basic,702.37,1,2024-03-15
+ACC000426,Customer_000426,426,Tech Professional,Consumer,3729 Main St,New York,CA,94699,Premium Plus,2446.91,2,2022-11-14
+ACC000427,Customer_000427,427,Audiophile,Consumer,1739 Main St,Los Angeles,TX,32801,Free,0.0,1,2024-03-11
+ACC000428,Customer_000428,428,Tech Professional,Consumer,8150 Main St,Chicago,NY,24261,Premium Plus,1641.39,2,2020-01-21
+ACC000429,Customer_000429,429,Creative Professional,Consumer,6085 Main St,Austin,WA,80933,Free,0.0,1,2024-03-26
+ACC000430,Customer_000430,430,Audiophile,Consumer,6885 Main St,New York,CA,30454,Free,0.0,2,2023-10-04
+ACC000431,Customer_000431,431,Home Owner,Consumer,1435 Main St,Chicago,CA,21220,Free,0.0,2,2021-11-14
+ACC000432,Customer_000432,432,Creative Professional,Consumer,2915 Main St,Austin,WA,84930,Free,0.0,1,2023-09-04
+ACC000433,Customer_000433,433,Home Owner,Consumer,760 Main St,Los Angeles,TX,24425,Basic,606.22,2,2023-02-21
+ACC000434,Customer_000434,434,Creative Professional,Consumer,9658 Main St,Seattle,TX,24602,Free,0.0,3,2021-03-16
+ACC000435,Customer_000435,435,Creative Professional,Consumer,6501 Main St,Los Angeles,NY,46172,Free,0.0,3,2022-10-01
+ACC000436,Customer_000436,436,Home Owner,Consumer,111 Main St,Seattle,WA,86019,Free,0.0,1,2021-12-14
+ACC000437,Customer_000437,437,Audiophile,Consumer,2950 Main St,New York,TX,26755,Free,0.0,4,2022-10-03
+ACC000438,Customer_000438,438,Creative Professional,Consumer,141 Main St,Los Angeles,WA,36745,Premium,495.81,3,2021-04-03
+ACC000439,Customer_000439,439,Tech Professional,Consumer,2750 Main St,Chicago,WA,46037,Basic,906.61,2,2022-07-15
+ACC000440,Customer_000440,440,Creative Professional,Consumer,3502 Main St,Seattle,NY,85575,Premium,1827.38,4,2023-10-20
+ACC000441,Customer_000441,441,Audiophile,Consumer,521 Main St,Los Angeles,IL,83062,Free,0.0,1,2022-03-11
+ACC000442,Customer_000442,442,Creative Professional,Consumer,9619 Main St,Seattle,IL,69369,Free,0.0,2,2020-05-21
+ACC000443,Customer_000443,443,Audiophile,Consumer,366 Main St,Seattle,WA,35531,Basic,701.49,4,2024-11-04
+ACC000444,Customer_000444,444,Home Owner,Consumer,2269 Main St,Chicago,IL,40663,Basic,915.52,3,2023-02-19
+ACC000445,Customer_000445,445,Home Owner,Consumer,4315 Main St,Los Angeles,WA,83649,Free,0.0,4,2020-01-19
+ACC000446,Customer_000446,446,Home Owner,Consumer,8052 Main St,Los Angeles,WA,92178,Premium,1402.55,1,2024-11-19
+ACC000447,Customer_000447,447,Tech Professional,Consumer,4807 Main St,Austin,IL,47694,Basic,456.79,1,2022-10-14
+ACC000448,Customer_000448,448,Audiophile,Consumer,314 Main St,Austin,IL,87741,Free,0.0,3,2021-12-20
+ACC000449,Customer_000449,449,Home Owner,Consumer,8327 Main St,New York,NY,78926,Free,0.0,2,2022-05-06
+ACC000450,Customer_000450,450,Audiophile,Consumer,4001 Main St,Los Angeles,CA,50942,Premium Plus,1826.29,2,2021-08-07
+ACC000451,Customer_000451,451,Home Owner,Consumer,6366 Main St,Chicago,TX,23021,Basic,761.26,4,2024-08-08
+ACC000452,Customer_000452,452,Audiophile,Consumer,6839 Main St,Austin,WA,22600,Free,0.0,3,2024-11-16
+ACC000453,Customer_000453,453,Home Owner,Consumer,8379 Main St,Los Angeles,WA,10878,Basic,414.38,1,2023-04-14
+ACC000454,Customer_000454,454,Home Owner,Consumer,5140 Main St,Austin,NY,74582,Free,0.0,4,2021-09-22
+ACC000455,Customer_000455,455,Audiophile,Consumer,3059 Main St,Chicago,CA,98444,Premium,1058.36,2,2023-05-19
+ACC000456,Customer_000456,456,Audiophile,Consumer,8502 Main St,Seattle,TX,54434,Free,0.0,4,2022-02-21
+ACC000457,Customer_000457,457,Home Owner,Consumer,7456 Main St,New York,IL,25954,Free,0.0,1,2022-10-08
+ACC000458,Customer_000458,458,Creative Professional,Consumer,2171 Main St,New York,CA,35026,Free,0.0,3,2021-10-15
+ACC000459,Customer_000459,459,Tech Professional,Consumer,4321 Main St,Los Angeles,TX,45125,Free,0.0,2,2022-01-26
+ACC000460,Customer_000460,460,Home Owner,Consumer,2704 Main St,New York,TX,70526,Basic,1014.57,1,2020-10-21
+ACC000461,Customer_000461,461,Home Owner,Consumer,9838 Main St,New York,NY,55765,Free,0.0,2,2020-05-03
+ACC000462,Customer_000462,462,Home Owner,Consumer,4414 Main St,Seattle,CA,29472,Premium,1511.38,3,2024-03-06
+ACC000463,Customer_000463,463,Creative Professional,Consumer,1761 Main St,Los Angeles,TX,66038,Free,0.0,3,2024-04-27
+ACC000464,Customer_000464,464,Home Owner,Consumer,9276 Main St,Chicago,WA,63933,Premium,701.33,4,2022-10-20
+ACC000465,Customer_000465,465,Audiophile,Consumer,9007 Main St,Chicago,WA,15131,Free,0.0,2,2022-12-08
+ACC000466,Customer_000466,466,Audiophile,Consumer,8543 Main St,Seattle,WA,65274,Premium Plus,1895.85,1,2023-10-30
+ACC000467,Customer_000467,467,Creative Professional,Consumer,8804 Main St,Seattle,CA,97168,Free,0.0,4,2024-07-02
+ACC000468,Customer_000468,468,Tech Professional,Consumer,5732 Main St,New York,CA,15066,Premium Plus,865.39,3,2020-11-30
+ACC000469,Customer_000469,469,Home Owner,Consumer,3374 Main St,Seattle,NY,89369,Free,0.0,2,2024-02-24
+ACC000470,Customer_000470,470,Audiophile,Consumer,4912 Main St,Los Angeles,IL,44336,Basic,974.46,3,2022-12-17
+ACC000471,Customer_000471,471,Tech Professional,Consumer,9271 Main St,Los Angeles,IL,86245,Basic,616.11,3,2021-10-22
+ACC000472,Customer_000472,472,Creative Professional,Consumer,2672 Main St,Los Angeles,NY,34399,Premium Plus,1942.55,3,2024-10-23
+ACC000473,Customer_000473,473,Audiophile,Consumer,7156 Main St,Seattle,WA,62899,Basic,946.15,1,2023-07-21
+ACC000474,Customer_000474,474,Tech Professional,Consumer,3158 Main St,Austin,IL,76706,Basic,354.58,2,2023-12-14
+ACC000475,Customer_000475,475,Tech Professional,Consumer,4496 Main St,Seattle,TX,94355,Premium,1058.24,1,2020-04-19
+ACC000476,Customer_000476,476,Audiophile,Consumer,3037 Main St,New York,TX,39538,Free,0.0,4,2021-04-23
+ACC000477,Customer_000477,477,Tech Professional,Consumer,7112 Main St,Los Angeles,IL,59420,Basic,874.04,4,2022-10-04
+ACC000478,Customer_000478,478,Home Owner,Consumer,2422 Main St,Seattle,NY,44801,Basic,589.34,1,2023-05-12
+ACC000479,Customer_000479,479,Audiophile,Consumer,2718 Main St,Seattle,IL,92800,Free,0.0,2,2021-03-10
+ACC000480,Customer_000480,480,Home Owner,Consumer,6047 Main St,Chicago,WA,41548,Free,0.0,3,2022-08-22
+ACC000481,Customer_000481,481,Creative Professional,Consumer,4270 Main St,Los Angeles,CA,99843,Premium Plus,997.81,1,2024-10-22
+ACC000482,Customer_000482,482,Tech Professional,Consumer,884 Main St,Austin,IL,41219,Free,0.0,1,2020-01-26
+ACC000483,Customer_000483,483,Creative Professional,Consumer,9199 Main St,Los Angeles,WA,96243,Premium,2079.5,4,2021-07-27
+ACC000484,Customer_000484,484,Tech Professional,Consumer,7330 Main St,Austin,WA,47491,Premium,753.22,2,2024-02-29
+ACC000485,Customer_000485,485,Creative Professional,Consumer,2882 Main St,Chicago,CA,47032,Basic,935.85,2,2024-02-21
+ACC000486,Customer_000486,486,Home Owner,Consumer,9451 Main St,Austin,IL,71584,Basic,243.04,3,2022-08-22
+ACC000487,Customer_000487,487,Home Owner,Consumer,7070 Main St,Los Angeles,IL,82831,Free,0.0,2,2023-08-22
+ACC000488,Customer_000488,488,Tech Professional,Consumer,5157 Main St,Los Angeles,CA,92083,Free,0.0,3,2020-03-07
+ACC000489,Customer_000489,489,Creative Professional,Consumer,1047 Main St,Los Angeles,IL,45193,Free,0.0,4,2021-03-18
+ACC000490,Customer_000490,490,Creative Professional,Consumer,7216 Main St,Los Angeles,IL,29048,Premium,1134.15,1,2023-10-21
+ACC000491,Customer_000491,491,Audiophile,Consumer,1674 Main St,New York,CA,71087,Basic,937.86,4,2022-03-30
+ACC000492,Customer_000492,492,Audiophile,Consumer,7332 Main St,New York,IL,35188,Free,0.0,3,2023-07-18
+ACC000493,Customer_000493,493,Creative Professional,Consumer,3997 Main St,Austin,CA,77511,Basic,793.9,3,2020-01-25
+ACC000494,Customer_000494,494,Home Owner,Consumer,1952 Main St,Austin,IL,80721,Premium Plus,842.68,3,2020-10-20
+ACC000495,Customer_000495,495,Creative Professional,Consumer,6698 Main St,Chicago,IL,48294,Basic,961.38,3,2022-04-18
+ACC000496,Customer_000496,496,Tech Professional,Consumer,750 Main St,Austin,IL,62024,Premium,1564.12,1,2021-05-02
+ACC000497,Customer_000497,497,Home Owner,Consumer,4707 Main St,Chicago,WA,71723,Free,0.0,2,2024-03-27
+ACC000498,Customer_000498,498,Home Owner,Consumer,1558 Main St,New York,CA,54369,Premium Plus,1411.14,4,2024-04-08
+ACC000499,Customer_000499,499,Creative Professional,Consumer,4057 Main St,Seattle,CA,88186,Basic,908.82,2,2021-02-18
+ACC000500,Customer_000500,500,Home Owner,Consumer,4457 Main St,Chicago,WA,16159,Free,0.0,2,2023-11-19
+ACC000501,Customer_000501,501,Home Owner,Consumer,4111 Main St,New York,IL,39761,Premium,559.41,2,2021-09-22
+ACC000502,Customer_000502,502,Creative Professional,Consumer,9621 Main St,Los Angeles,CA,11331,Free,0.0,1,2024-10-26
+ACC000503,Customer_000503,503,Audiophile,Consumer,2781 Main St,New York,IL,32116,Premium,2085.68,4,2023-02-13
+ACC000504,Customer_000504,504,Home Owner,Consumer,6072 Main St,Austin,WA,64817,Free,0.0,1,2020-06-13
+ACC000505,Customer_000505,505,Creative Professional,Consumer,4816 Main St,New York,IL,31259,Free,0.0,4,2021-10-01
+ACC000506,Customer_000506,506,Audiophile,Consumer,8984 Main St,Chicago,NY,99720,Free,0.0,3,2020-08-18
+ACC000507,Customer_000507,507,Tech Professional,Consumer,3756 Main St,Los Angeles,WA,81949,Free,0.0,3,2023-01-12
+ACC000508,Customer_000508,508,Audiophile,Consumer,9677 Main St,Chicago,WA,98777,Free,0.0,2,2021-06-20
+ACC000509,Customer_000509,509,Tech Professional,Consumer,7057 Main St,Chicago,CA,60145,Basic,710.08,1,2023-10-22
+ACC000510,Customer_000510,510,Creative Professional,Consumer,8120 Main St,Seattle,TX,90159,Premium,697.59,4,2020-05-13
+ACC000511,Customer_000511,511,Creative Professional,Consumer,9383 Main St,Seattle,NY,47282,Free,0.0,2,2024-03-11
+ACC000512,Customer_000512,512,Creative Professional,Consumer,1011 Main St,Austin,TX,77993,Basic,464.34,4,2021-06-22
+ACC000513,Customer_000513,513,Creative Professional,Consumer,7997 Main St,Chicago,CA,55073,Free,0.0,3,2021-01-15
+ACC000514,Customer_000514,514,Home Owner,Consumer,3411 Main St,New York,NY,29038,Premium Plus,1894.6,4,2021-04-02
+ACC000515,Customer_000515,515,Creative Professional,Consumer,8851 Main St,Seattle,TX,10298,Free,0.0,1,2024-01-12
+ACC000516,Customer_000516,516,Tech Professional,Consumer,3123 Main St,Austin,CA,53840,Basic,339.27,1,2022-04-07
+ACC000517,Customer_000517,517,Creative Professional,Consumer,5109 Main St,Austin,TX,18497,Premium,536.9,4,2024-01-25
+ACC000518,Customer_000518,518,Home Owner,Consumer,3810 Main St,Seattle,WA,12586,Premium,1034.92,3,2022-01-02
+ACC000519,Customer_000519,519,Audiophile,Consumer,1590 Main St,New York,NY,22014,Free,0.0,2,2024-09-28
+ACC000520,Customer_000520,520,Tech Professional,Consumer,4113 Main St,Austin,IL,58717,Basic,637.7,1,2023-04-21
+ACC000521,Customer_000521,521,Audiophile,Consumer,1356 Main St,Austin,TX,29703,Premium,1262.93,2,2022-03-10
+ACC000522,Customer_000522,522,Creative Professional,Consumer,3943 Main St,Chicago,TX,10816,Free,0.0,3,2024-05-10
+ACC000523,Customer_000523,523,Home Owner,Consumer,4943 Main St,New York,WA,15401,Basic,860.25,2,2023-04-12
+ACC000524,Customer_000524,524,Audiophile,Consumer,6519 Main St,Austin,CA,60835,Basic,976.73,4,2024-08-03
+ACC000525,Customer_000525,525,Audiophile,Consumer,8126 Main St,Austin,NY,25063,Basic,486.95,2,2023-05-03
+ACC000526,Customer_000526,526,Tech Professional,Consumer,3544 Main St,Chicago,NY,46898,Basic,291.73,3,2021-10-12
+ACC000527,Customer_000527,527,Home Owner,Consumer,9143 Main St,Los Angeles,NY,89140,Free,0.0,4,2021-03-14
+ACC000528,Customer_000528,528,Tech Professional,Consumer,270 Main St,Los Angeles,NY,12127,Free,0.0,2,2021-07-28
+ACC000529,Customer_000529,529,Audiophile,Consumer,7077 Main St,Chicago,WA,26819,Premium,1044.28,3,2023-12-09
+ACC000530,Customer_000530,530,Home Owner,Consumer,7592 Main St,Austin,WA,63635,Free,0.0,3,2024-06-04
+ACC000531,Customer_000531,531,Tech Professional,Consumer,7904 Main St,Austin,NY,51858,Premium,1561.7,1,2021-05-29
+ACC000532,Customer_000532,532,Home Owner,Consumer,7466 Main St,Seattle,WA,33724,Basic,1024.71,1,2022-07-23
+ACC000533,Customer_000533,533,Creative Professional,Consumer,4981 Main St,Seattle,WA,20021,Basic,990.15,2,2021-10-16
+ACC000534,Customer_000534,534,Creative Professional,Consumer,8554 Main St,Los Angeles,CA,12376,Free,0.0,4,2024-07-01
+ACC000535,Customer_000535,535,Tech Professional,Consumer,7669 Main St,Chicago,CA,78453,Free,0.0,4,2024-10-18
+ACC000536,Customer_000536,536,Audiophile,Consumer,6227 Main St,Austin,NY,95830,Free,0.0,1,2023-01-08
+ACC000537,Customer_000537,537,Tech Professional,Consumer,9650 Main St,New York,CA,31886,Premium,1963.23,4,2021-12-10
+ACC000538,Customer_000538,538,Home Owner,Consumer,9756 Main St,Seattle,WA,33477,Free,0.0,4,2023-07-08
+ACC000539,Customer_000539,539,Tech Professional,Consumer,5735 Main St,Austin,TX,94036,Free,0.0,1,2023-01-19
+ACC000540,Customer_000540,540,Creative Professional,Consumer,5710 Main St,Austin,TX,44661,Premium Plus,3133.57,3,2023-06-05
+ACC000541,Customer_000541,541,Audiophile,Consumer,1810 Main St,Los Angeles,NY,80255,Free,0.0,1,2020-11-10
+ACC000542,Customer_000542,542,Creative Professional,Consumer,9216 Main St,Chicago,CA,42494,Free,0.0,2,2022-12-13
+ACC000543,Customer_000543,543,Creative Professional,Consumer,4423 Main St,New York,CA,10483,Premium,755.82,4,2020-01-30
+ACC000544,Customer_000544,544,Audiophile,Consumer,1496 Main St,Chicago,TX,23641,Basic,287.22,3,2021-04-06
+ACC000545,Customer_000545,545,Audiophile,Consumer,9982 Main St,Los Angeles,NY,34287,Premium,818.49,3,2022-04-21
+ACC000546,Customer_000546,546,Creative Professional,Consumer,7850 Main St,New York,TX,62696,Premium Plus,3215.87,4,2020-05-14
+ACC000547,Customer_000547,547,Home Owner,Consumer,6856 Main St,Los Angeles,TX,70625,Free,0.0,1,2021-07-30
+ACC000548,Customer_000548,548,Audiophile,Consumer,7668 Main St,New York,TX,48956,Premium,810.28,1,2024-06-19
+ACC000549,Customer_000549,549,Tech Professional,Consumer,9457 Main St,Chicago,TX,20331,Basic,865.68,3,2022-01-25
+ACC000550,Customer_000550,550,Creative Professional,Consumer,8858 Main St,Los Angeles,NY,30788,Free,0.0,4,2024-03-22
+ACC000551,Customer_000551,551,Home Owner,Consumer,6425 Main St,Los Angeles,WA,96722,Basic,1031.73,3,2020-04-19
+ACC000552,Customer_000552,552,Audiophile,Consumer,8431 Main St,Austin,CA,13548,Basic,837.47,4,2023-08-09
+ACC000553,Customer_000553,553,Audiophile,Consumer,1786 Main St,Seattle,CA,69170,Premium Plus,1610.2,2,2020-10-30
+ACC000554,Customer_000554,554,Creative Professional,Consumer,748 Main St,Seattle,TX,17236,Basic,294.89,4,2020-03-17
+ACC000555,Customer_000555,555,Tech Professional,Consumer,1518 Main St,Chicago,WA,93408,Basic,583.9,1,2022-09-07
+ACC000556,Customer_000556,556,Creative Professional,Consumer,4056 Main St,New York,IL,24222,Premium Plus,2419.54,2,2020-03-06
+ACC000557,Customer_000557,557,Creative Professional,Consumer,8633 Main St,Los Angeles,WA,90851,Free,0.0,1,2024-05-29
+ACC000558,Customer_000558,558,Home Owner,Consumer,6620 Main St,Los Angeles,CA,17611,Premium,857.55,4,2021-03-14
+ACC000559,Customer_000559,559,Audiophile,Consumer,3330 Main St,Chicago,CA,72667,Premium Plus,3458.28,1,2021-05-03
+ACC000560,Customer_000560,560,Creative Professional,Consumer,7854 Main St,Chicago,TX,58075,Basic,847.22,3,2020-02-22
+ACC000561,Customer_000561,561,Tech Professional,Consumer,8419 Main St,New York,IL,24264,Free,0.0,1,2020-11-18
+ACC000562,Customer_000562,562,Creative Professional,Consumer,9149 Main St,Austin,TX,21157,Free,0.0,3,2023-02-15
+ACC000563,Customer_000563,563,Tech Professional,Consumer,5435 Main St,New York,WA,37503,Free,0.0,1,2020-01-16
+ACC000564,Customer_000564,564,Creative Professional,Consumer,6322 Main St,Austin,TX,58899,Basic,445.18,3,2024-01-16
+ACC000565,Customer_000565,565,Creative Professional,Consumer,4361 Main St,Austin,IL,98081,Basic,894.63,3,2022-11-21
+ACC000566,Customer_000566,566,Creative Professional,Consumer,3010 Main St,Chicago,WA,25891,Free,0.0,1,2023-03-04
+ACC000567,Customer_000567,567,Creative Professional,Consumer,5099 Main St,Seattle,TX,90115,Premium Plus,2528.85,3,2023-05-25
+ACC000568,Customer_000568,568,Creative Professional,Consumer,317 Main St,Los Angeles,TX,31705,Free,0.0,4,2021-04-29
+ACC000569,Customer_000569,569,Home Owner,Consumer,2190 Main St,Los Angeles,TX,78498,Free,0.0,4,2022-04-21
+ACC000570,Customer_000570,570,Home Owner,Consumer,3045 Main St,Los Angeles,IL,59295,Premium Plus,1527.38,1,2024-04-15
+ACC000571,Customer_000571,571,Audiophile,Consumer,5185 Main St,Austin,NY,90620,Free,0.0,2,2021-08-03
+ACC000572,Customer_000572,572,Creative Professional,Consumer,7716 Main St,New York,WA,82147,Free,0.0,2,2022-11-03
+ACC000573,Customer_000573,573,Home Owner,Consumer,9116 Main St,Chicago,CA,28435,Premium,1713.14,3,2021-09-10
+ACC000574,Customer_000574,574,Audiophile,Consumer,6045 Main St,New York,CA,40517,Free,0.0,3,2024-08-17
+ACC000575,Customer_000575,575,Tech Professional,Consumer,4871 Main St,Austin,TX,66552,Premium Plus,1914.95,2,2024-06-10
+ACC000576,Customer_000576,576,Tech Professional,Consumer,9227 Main St,Seattle,NY,78680,Basic,491.8,4,2024-01-06
+ACC000577,Customer_000577,577,Creative Professional,Consumer,4506 Main St,Los Angeles,NY,87749,Basic,291.33,3,2023-10-30
+ACC000578,Customer_000578,578,Tech Professional,Consumer,5287 Main St,Los Angeles,WA,17919,Premium Plus,2891.31,3,2020-04-07
+ACC000579,Customer_000579,579,Home Owner,Consumer,3362 Main St,Seattle,NY,62897,Premium Plus,1563.68,3,2023-09-25
+ACC000580,Customer_000580,580,Audiophile,Consumer,6089 Main St,New York,TX,20287,Free,0.0,1,2024-05-11
+ACC000581,Customer_000581,581,Creative Professional,Consumer,8289 Main St,Los Angeles,NY,25663,Free,0.0,2,2023-07-06
+ACC000582,Customer_000582,582,Home Owner,Consumer,3409 Main St,Seattle,WA,98502,Free,0.0,1,2023-05-12
+ACC000583,Customer_000583,583,Audiophile,Consumer,6935 Main St,Austin,WA,46173,Free,0.0,3,2021-06-27
+ACC000584,Customer_000584,584,Audiophile,Consumer,6865 Main St,New York,TX,54561,Free,0.0,4,2022-07-23
+ACC000585,Customer_000585,585,Audiophile,Consumer,9524 Main St,Austin,NY,45687,Basic,316.64,4,2022-06-03
+ACC000586,Customer_000586,586,Tech Professional,Consumer,1709 Main St,Chicago,IL,44107,Basic,777.93,3,2024-10-06
+ACC000587,Customer_000587,587,Tech Professional,Consumer,9569 Main St,Austin,NY,79796,Free,0.0,1,2024-06-09
+ACC000588,Customer_000588,588,Home Owner,Consumer,3633 Main St,Austin,TX,83858,Basic,701.8,1,2024-01-16
+ACC000589,Customer_000589,589,Tech Professional,Consumer,7169 Main St,Los Angeles,CA,92181,Basic,370.54,1,2020-03-26
+ACC000590,Customer_000590,590,Tech Professional,Consumer,2943 Main St,New York,NY,37006,Basic,427.57,1,2024-05-03
+ACC000591,Customer_000591,591,Creative Professional,Consumer,5307 Main St,Los Angeles,CA,83295,Free,0.0,4,2023-06-27
+ACC000592,Customer_000592,592,Audiophile,Consumer,1720 Main St,Los Angeles,IL,21534,Free,0.0,1,2024-08-09
+ACC000593,Customer_000593,593,Audiophile,Consumer,4152 Main St,New York,CA,82723,Basic,926.9,4,2023-02-12
+ACC000594,Customer_000594,594,Tech Professional,Consumer,8603 Main St,Los Angeles,CA,24793,Free,0.0,3,2023-06-23
+ACC000595,Customer_000595,595,Home Owner,Consumer,5522 Main St,Seattle,NY,52339,Basic,859.94,1,2023-10-06
+ACC000596,Customer_000596,596,Audiophile,Consumer,7890 Main St,New York,TX,77988,Basic,779.88,4,2020-08-07
+ACC000597,Customer_000597,597,Audiophile,Consumer,7850 Main St,Chicago,NY,94152,Premium,1460.93,3,2020-03-16
+ACC000598,Customer_000598,598,Creative Professional,Consumer,3555 Main St,Los Angeles,WA,28182,Free,0.0,4,2020-05-05
+ACC000599,Customer_000599,599,Creative Professional,Consumer,5519 Main St,Austin,TX,13904,Premium,1141.89,3,2023-11-27
+ACC000600,Customer_000600,600,Creative Professional,Consumer,7194 Main St,Los Angeles,IL,55926,Free,0.0,4,2024-05-23
+ACC000601,Customer_000601,601,Audiophile,Consumer,1364 Main St,New York,WA,91831,Basic,647.12,1,2020-10-21
+ACC000602,Customer_000602,602,Home Owner,Consumer,1548 Main St,New York,WA,98416,Free,0.0,3,2023-04-11
+ACC000603,Customer_000603,603,Audiophile,Consumer,3605 Main St,Seattle,CA,81515,Basic,650.56,2,2021-05-29
+ACC000604,Customer_000604,604,Tech Professional,Consumer,2369 Main St,New York,NY,42154,Free,0.0,4,2024-03-18
+ACC000605,Customer_000605,605,Tech Professional,Consumer,3285 Main St,Austin,IL,79859,Basic,626.78,2,2023-09-02
+ACC000606,Customer_000606,606,Audiophile,Consumer,6988 Main St,Chicago,IL,22193,Premium,1289.29,1,2022-09-18
+ACC000607,Customer_000607,607,Creative Professional,Consumer,7491 Main St,Seattle,WA,55714,Free,0.0,1,2023-04-12
+ACC000608,Customer_000608,608,Home Owner,Consumer,2307 Main St,Los Angeles,NY,65942,Basic,442.06,2,2021-10-19
+ACC000609,Customer_000609,609,Creative Professional,Consumer,2372 Main St,Seattle,WA,21752,Premium,952.61,4,2022-06-30
+ACC000610,Customer_000610,610,Home Owner,Consumer,8997 Main St,New York,IL,68674,Basic,470.66,4,2022-11-03
+ACC000611,Customer_000611,611,Creative Professional,Consumer,9291 Main St,Austin,IL,45148,Premium,1048.83,1,2021-10-12
+ACC000612,Customer_000612,612,Home Owner,Consumer,969 Main St,Seattle,NY,24909,Free,0.0,2,2024-10-18
+ACC000613,Customer_000613,613,Audiophile,Consumer,3066 Main St,Los Angeles,IL,30882,Basic,423.77,3,2024-07-12
+ACC000614,Customer_000614,614,Audiophile,Consumer,9202 Main St,Seattle,CA,64555,Premium,1688.63,4,2020-07-12
+ACC000615,Customer_000615,615,Audiophile,Consumer,5485 Main St,Austin,IL,58015,Free,0.0,2,2022-09-07
+ACC000616,Customer_000616,616,Tech Professional,Consumer,3723 Main St,Seattle,CA,40278,Premium,484.64,1,2020-07-01
+ACC000617,Customer_000617,617,Creative Professional,Consumer,8225 Main St,New York,WA,62174,Basic,708.87,2,2024-11-15
+ACC000618,Customer_000618,618,Home Owner,Consumer,6718 Main St,Chicago,NY,87681,Free,0.0,2,2022-03-29
+ACC000619,Customer_000619,619,Home Owner,Consumer,7724 Main St,Chicago,TX,26630,Premium,776.58,4,2020-05-14
+ACC000620,Customer_000620,620,Audiophile,Consumer,5928 Main St,Austin,CA,83619,Free,0.0,1,2023-05-04
+ACC000621,Customer_000621,621,Audiophile,Consumer,3312 Main St,Chicago,TX,54074,Free,0.0,1,2020-10-18
+ACC000622,Customer_000622,622,Tech Professional,Consumer,1529 Main St,Austin,WA,43808,Premium,2032.82,2,2022-07-09
+ACC000623,Customer_000623,623,Home Owner,Consumer,2784 Main St,New York,TX,63167,Basic,803.39,3,2021-05-27
+ACC000624,Customer_000624,624,Creative Professional,Consumer,7551 Main St,Austin,IL,68884,Premium,2022.76,1,2024-04-03
+ACC000625,Customer_000625,625,Tech Professional,Consumer,5292 Main St,Austin,WA,31158,Basic,281.63,3,2020-06-11
+ACC000626,Customer_000626,626,Creative Professional,Consumer,4901 Main St,Seattle,NY,54976,Premium,536.91,1,2024-10-21
+ACC000627,Customer_000627,627,Tech Professional,Consumer,1117 Main St,Seattle,TX,14440,Free,0.0,2,2021-07-03
+ACC000628,Customer_000628,628,Tech Professional,Consumer,7690 Main St,Seattle,NY,59871,Free,0.0,3,2021-01-06
+ACC000629,Customer_000629,629,Creative Professional,Consumer,6474 Main St,New York,IL,79348,Premium Plus,1793.16,4,2024-11-15
+ACC000630,Customer_000630,630,Tech Professional,Consumer,4964 Main St,Los Angeles,CA,52696,Free,0.0,3,2020-05-12
+ACC000631,Customer_000631,631,Audiophile,Consumer,430 Main St,Chicago,WA,41664,Free,0.0,3,2024-07-09
+ACC000632,Customer_000632,632,Creative Professional,Consumer,5389 Main St,Chicago,IL,42676,Free,0.0,3,2022-06-18
+ACC000633,Customer_000633,633,Tech Professional,Consumer,463 Main St,Los Angeles,WA,25341,Premium,1976.91,3,2023-10-09
+ACC000634,Customer_000634,634,Creative Professional,Consumer,5415 Main St,Austin,TX,24953,Free,0.0,1,2021-11-23
+ACC000635,Customer_000635,635,Audiophile,Consumer,5143 Main St,Chicago,CA,63144,Free,0.0,2,2020-05-30
+ACC000636,Customer_000636,636,Creative Professional,Consumer,1016 Main St,Seattle,IL,66513,Basic,660.65,4,2020-06-23
+ACC000637,Customer_000637,637,Creative Professional,Consumer,703 Main St,Los Angeles,WA,10208,Free,0.0,4,2024-06-23
+ACC000638,Customer_000638,638,Creative Professional,Consumer,6492 Main St,Seattle,WA,75639,Free,0.0,1,2020-07-14
+ACC000639,Customer_000639,639,Tech Professional,Consumer,3200 Main St,Chicago,IL,90768,Free,0.0,3,2021-04-01
+ACC000640,Customer_000640,640,Audiophile,Consumer,2670 Main St,Austin,TX,22014,Premium Plus,1125.26,4,2022-03-15
+ACC000641,Customer_000641,641,Home Owner,Consumer,4959 Main St,Los Angeles,WA,73927,Free,0.0,1,2024-11-23
+ACC000642,Customer_000642,642,Creative Professional,Consumer,4901 Main St,Los Angeles,CA,29668,Basic,505.52,4,2020-01-06
+ACC000643,Customer_000643,643,Creative Professional,Consumer,6227 Main St,Austin,IL,35582,Basic,499.59,3,2021-09-07
+ACC000644,Customer_000644,644,Tech Professional,Consumer,7031 Main St,New York,IL,26322,Free,0.0,3,2024-08-27
+ACC000645,Customer_000645,645,Tech Professional,Consumer,6709 Main St,New York,WA,63993,Basic,643.73,1,2020-09-26
+ACC000646,Customer_000646,646,Audiophile,Consumer,3251 Main St,Chicago,NY,77500,Premium,1995.83,2,2024-06-22
+ACC000647,Customer_000647,647,Audiophile,Consumer,4764 Main St,Chicago,CA,90329,Free,0.0,4,2020-08-07
+ACC000648,Customer_000648,648,Audiophile,Consumer,361 Main St,Chicago,WA,75483,Free,0.0,1,2021-09-18
+ACC000649,Customer_000649,649,Home Owner,Consumer,6998 Main St,Chicago,NY,45599,Premium Plus,1917.08,4,2020-11-09
+ACC000650,Customer_000650,650,Home Owner,Consumer,6908 Main St,Austin,WA,67479,Basic,405.25,1,2023-02-06
+ACC000651,Customer_000651,651,Creative Professional,Consumer,2874 Main St,Los Angeles,NY,10988,Free,0.0,3,2022-01-16
+ACC000652,Customer_000652,652,Tech Professional,Consumer,2658 Main St,New York,WA,94939,Premium,1927.69,2,2021-11-07
+ACC000653,Customer_000653,653,Audiophile,Consumer,243 Main St,Los Angeles,WA,91296,Basic,694.73,1,2022-07-08
+ACC000654,Customer_000654,654,Audiophile,Consumer,1333 Main St,Los Angeles,WA,30384,Free,0.0,1,2022-05-18
+ACC000655,Customer_000655,655,Tech Professional,Consumer,5642 Main St,Chicago,TX,71002,Basic,658.11,2,2022-05-04
+ACC000656,Customer_000656,656,Creative Professional,Consumer,8285 Main St,Los Angeles,WA,38515,Free,0.0,3,2024-11-07
+ACC000657,Customer_000657,657,Creative Professional,Consumer,6274 Main St,Chicago,NY,45639,Basic,879.58,4,2022-09-14
+ACC000658,Customer_000658,658,Home Owner,Consumer,7615 Main St,New York,IL,62051,Basic,897.77,2,2022-01-24
+ACC000659,Customer_000659,659,Audiophile,Consumer,269 Main St,Austin,WA,56229,Basic,783.52,4,2023-10-09
+ACC000660,Customer_000660,660,Audiophile,Consumer,1406 Main St,Seattle,TX,89493,Premium Plus,2202.74,4,2022-04-28
+ACC000661,Customer_000661,661,Creative Professional,Consumer,3367 Main St,Austin,CA,48479,Basic,797.28,2,2021-11-10
+ACC000662,Customer_000662,662,Audiophile,Consumer,8550 Main St,Seattle,IL,22500,Basic,1035.26,1,2020-05-12
+ACC000663,Customer_000663,663,Tech Professional,Consumer,5705 Main St,New York,NY,49269,Premium,1061.21,1,2020-02-17
+ACC000664,Customer_000664,664,Creative Professional,Consumer,7692 Main St,Seattle,NY,31549,Premium,670.94,4,2021-01-17
+ACC000665,Customer_000665,665,Audiophile,Consumer,220 Main St,Los Angeles,WA,37280,Free,0.0,3,2022-04-19
+ACC000666,Customer_000666,666,Audiophile,Consumer,2304 Main St,Chicago,TX,14096,Premium,1014.67,3,2021-06-25
+ACC000667,Customer_000667,667,Tech Professional,Consumer,891 Main St,Los Angeles,WA,92513,Free,0.0,3,2023-09-20
+ACC000668,Customer_000668,668,Audiophile,Consumer,747 Main St,Austin,NY,97811,Free,0.0,1,2024-06-11
+ACC000669,Customer_000669,669,Tech Professional,Consumer,3391 Main St,Seattle,WA,51380,Basic,697.92,2,2023-11-12
+ACC000670,Customer_000670,670,Creative Professional,Consumer,9464 Main St,Seattle,TX,94420,Premium,726.65,2,2021-04-15
+ACC000671,Customer_000671,671,Creative Professional,Consumer,522 Main St,Los Angeles,TX,67656,Basic,748.91,1,2024-09-23
+ACC000672,Customer_000672,672,Creative Professional,Consumer,2243 Main St,Austin,WA,17221,Free,0.0,2,2024-09-01
+ACC000673,Customer_000673,673,Home Owner,Consumer,6757 Main St,Los Angeles,NY,71528,Premium,715.97,2,2022-08-04
+ACC000674,Customer_000674,674,Tech Professional,Consumer,1384 Main St,Seattle,TX,17001,Basic,294.44,1,2021-08-02
+ACC000675,Customer_000675,675,Creative Professional,Consumer,6563 Main St,Seattle,NY,24656,Basic,399.94,4,2020-02-02
+ACC000676,Customer_000676,676,Creative Professional,Consumer,877 Main St,Austin,IL,50551,Basic,260.19,2,2024-02-24
+ACC000677,Customer_000677,677,Home Owner,Consumer,9685 Main St,Chicago,NY,34301,Basic,812.45,2,2022-12-27
+ACC000678,Customer_000678,678,Home Owner,Consumer,7550 Main St,Austin,WA,35501,Premium,536.29,3,2024-08-02
+ACC000679,Customer_000679,679,Home Owner,Consumer,3727 Main St,Chicago,NY,57041,Free,0.0,1,2021-10-02
+ACC000680,Customer_000680,680,Home Owner,Consumer,3281 Main St,Austin,TX,41445,Free,0.0,4,2024-10-06
+ACC000681,Customer_000681,681,Home Owner,Consumer,8901 Main St,Seattle,NY,34961,Free,0.0,3,2020-09-18
+ACC000682,Customer_000682,682,Audiophile,Consumer,9110 Main St,Los Angeles,CA,21980,Premium,1742.43,4,2021-01-16
+ACC000683,Customer_000683,683,Creative Professional,Consumer,270 Main St,Austin,TX,71352,Free,0.0,2,2021-02-16
+ACC000684,Customer_000684,684,Home Owner,Consumer,761 Main St,New York,NY,45405,Basic,398.5,2,2021-09-23
+ACC000685,Customer_000685,685,Audiophile,Consumer,6880 Main St,Chicago,IL,70590,Basic,258.63,1,2022-01-26
+ACC000686,Customer_000686,686,Tech Professional,Consumer,885 Main St,Austin,IL,80471,Premium Plus,3466.88,2,2024-11-24
+ACC000687,Customer_000687,687,Tech Professional,Consumer,6775 Main St,Los Angeles,NY,15571,Free,0.0,2,2021-05-15
+ACC000688,Customer_000688,688,Tech Professional,Consumer,2795 Main St,Chicago,WA,30099,Free,0.0,4,2020-11-23
+ACC000689,Customer_000689,689,Audiophile,Consumer,2749 Main St,Austin,NY,68832,Free,0.0,1,2020-04-29
+ACC000690,Customer_000690,690,Tech Professional,Consumer,6609 Main St,Austin,IL,45652,Basic,455.55,3,2024-10-08
+ACC000691,Customer_000691,691,Tech Professional,Consumer,3421 Main St,Chicago,WA,98618,Free,0.0,2,2023-04-24
+ACC000692,Customer_000692,692,Creative Professional,Consumer,1334 Main St,Austin,NY,69087,Basic,460.12,2,2020-02-06
+ACC000693,Customer_000693,693,Creative Professional,Consumer,5891 Main St,Chicago,NY,59946,Premium,931.09,3,2023-09-27
+ACC000694,Customer_000694,694,Creative Professional,Consumer,5555 Main St,Seattle,TX,41460,Basic,446.0,3,2024-03-14
+ACC000695,Customer_000695,695,Audiophile,Consumer,8543 Main St,Seattle,NY,18153,Free,0.0,3,2021-10-07
+ACC000696,Customer_000696,696,Tech Professional,Consumer,457 Main St,Los Angeles,NY,49500,Free,0.0,3,2022-01-10
+ACC000697,Customer_000697,697,Creative Professional,Consumer,7103 Main St,New York,CA,83333,Basic,325.21,4,2020-05-18
+ACC000698,Customer_000698,698,Audiophile,Consumer,5397 Main St,New York,WA,28930,Free,0.0,3,2024-07-30
+ACC000699,Customer_000699,699,Tech Professional,Consumer,6170 Main St,Seattle,NY,63417,Basic,378.11,3,2024-10-25
+ACC000700,Customer_000700,700,Home Owner,Consumer,3272 Main St,Austin,NY,63979,Premium,986.55,3,2024-11-01
+ACC000701,Customer_000701,701,Creative Professional,Consumer,7031 Main St,Chicago,IL,64494,Basic,522.44,2,2023-07-24
+ACC000702,Customer_000702,702,Audiophile,Consumer,2856 Main St,Los Angeles,TX,43118,Basic,736.33,1,2022-06-15
+ACC000703,Customer_000703,703,Home Owner,Consumer,3228 Main St,Seattle,CA,52158,Premium,1952.26,2,2021-04-28
+ACC000704,Customer_000704,704,Creative Professional,Consumer,5445 Main St,Austin,TX,53989,Basic,386.58,3,2023-04-11
+ACC000705,Customer_000705,705,Audiophile,Consumer,835 Main St,Austin,TX,87518,Basic,686.66,3,2024-09-03
+ACC000706,Customer_000706,706,Audiophile,Consumer,7358 Main St,Chicago,TX,63719,Free,0.0,4,2024-12-05
+ACC000707,Customer_000707,707,Audiophile,Consumer,3644 Main St,Chicago,WA,43762,Basic,514.22,1,2020-10-14
+ACC000708,Customer_000708,708,Tech Professional,Consumer,3051 Main St,Chicago,WA,58249,Basic,303.02,4,2021-01-18
+ACC000709,Customer_000709,709,Tech Professional,Consumer,2959 Main St,New York,WA,20866,Free,0.0,3,2022-07-20
+ACC000710,Customer_000710,710,Creative Professional,Consumer,5402 Main St,Los Angeles,TX,38006,Free,0.0,1,2021-11-24
+ACC000711,Customer_000711,711,Creative Professional,Consumer,8661 Main St,Chicago,CA,83653,Premium,1607.54,2,2023-01-18
+ACC000712,Customer_000712,712,Tech Professional,Consumer,4161 Main St,Chicago,TX,69897,Free,0.0,3,2020-01-15
+ACC000713,Customer_000713,713,Tech Professional,Consumer,3963 Main St,New York,WA,68297,Free,0.0,2,2022-09-18
+ACC000714,Customer_000714,714,Home Owner,Consumer,2650 Main St,Los Angeles,NY,15222,Basic,666.85,2,2021-09-02
+ACC000715,Customer_000715,715,Tech Professional,Consumer,3541 Main St,Seattle,NY,57821,Free,0.0,1,2022-12-28
+ACC000716,Customer_000716,716,Home Owner,Consumer,837 Main St,Chicago,WA,28941,Premium Plus,2474.21,1,2024-10-30
+ACC000717,Customer_000717,717,Audiophile,Consumer,2440 Main St,Seattle,CA,43793,Basic,380.15,4,2020-01-21
+ACC000718,Customer_000718,718,Home Owner,Consumer,9725 Main St,Chicago,TX,22598,Premium Plus,1711.81,2,2021-05-08
+ACC000719,Customer_000719,719,Audiophile,Consumer,1845 Main St,Austin,NY,99481,Basic,860.55,1,2021-10-16
+ACC000720,Customer_000720,720,Audiophile,Consumer,7277 Main St,Los Angeles,NY,24906,Free,0.0,2,2022-09-10
+ACC000721,Customer_000721,721,Audiophile,Consumer,9118 Main St,Seattle,WA,44484,Free,0.0,4,2021-10-24
+ACC000722,Customer_000722,722,Tech Professional,Consumer,1678 Main St,Seattle,IL,10213,Free,0.0,4,2020-08-07
+ACC000723,Customer_000723,723,Tech Professional,Consumer,7900 Main St,Chicago,TX,76833,Premium,1651.03,2,2022-03-23
+ACC000724,Customer_000724,724,Audiophile,Consumer,889 Main St,New York,TX,88417,Basic,1009.11,2,2024-03-14
+ACC000725,Customer_000725,725,Creative Professional,Consumer,6439 Main St,Austin,IL,97538,Basic,499.05,1,2024-10-18
+ACC000726,Customer_000726,726,Home Owner,Consumer,7035 Main St,Chicago,WA,48944,Premium,1304.02,2,2021-11-24
+ACC000727,Customer_000727,727,Home Owner,Consumer,7958 Main St,Chicago,CA,90208,Premium Plus,3247.73,2,2020-02-09
+ACC000728,Customer_000728,728,Creative Professional,Consumer,8140 Main St,Austin,IL,54913,Free,0.0,3,2022-09-06
+ACC000729,Customer_000729,729,Creative Professional,Consumer,6781 Main St,Austin,CA,86060,Premium,1867.03,4,2023-07-16
+ACC000730,Customer_000730,730,Tech Professional,Consumer,687 Main St,Los Angeles,IL,28222,Free,0.0,2,2020-07-08
+ACC000731,Customer_000731,731,Home Owner,Consumer,4197 Main St,New York,IL,67069,Basic,316.22,1,2020-01-09
+ACC000732,Customer_000732,732,Creative Professional,Consumer,7696 Main St,Los Angeles,TX,68192,Basic,549.85,3,2021-01-20
+ACC000733,Customer_000733,733,Tech Professional,Consumer,5386 Main St,New York,WA,30984,Basic,475.8,4,2021-02-23
+ACC000734,Customer_000734,734,Tech Professional,Consumer,1216 Main St,Seattle,TX,81460,Basic,854.33,4,2020-04-30
+ACC000735,Customer_000735,735,Tech Professional,Consumer,2784 Main St,Chicago,NY,89963,Premium,1095.94,2,2021-12-27
+ACC000736,Customer_000736,736,Audiophile,Consumer,2253 Main St,New York,CA,71666,Premium,2073.61,1,2023-07-23
+ACC000737,Customer_000737,737,Tech Professional,Consumer,7412 Main St,Los Angeles,NY,33659,Free,0.0,1,2022-11-14
+ACC000738,Customer_000738,738,Tech Professional,Consumer,8768 Main St,Los Angeles,CA,12114,Free,0.0,2,2023-09-06
+ACC000739,Customer_000739,739,Audiophile,Consumer,5482 Main St,Chicago,WA,37910,Free,0.0,1,2022-06-11
+ACC000740,Customer_000740,740,Home Owner,Consumer,1950 Main St,New York,WA,61063,Basic,887.94,3,2024-02-18
+ACC000741,Customer_000741,741,Home Owner,Consumer,8674 Main St,Austin,WA,54608,Basic,769.34,4,2020-03-11
+ACC000742,Customer_000742,742,Tech Professional,Consumer,1268 Main St,New York,TX,66056,Premium,2029.7,2,2022-12-14
+ACC000743,Customer_000743,743,Creative Professional,Consumer,3783 Main St,Chicago,WA,39648,Free,0.0,4,2024-05-23
+ACC000744,Customer_000744,744,Audiophile,Consumer,4209 Main St,Austin,WA,32620,Free,0.0,1,2020-06-22
+ACC000745,Customer_000745,745,Creative Professional,Consumer,9525 Main St,New York,WA,44942,Free,0.0,3,2021-03-17
+ACC000746,Customer_000746,746,Creative Professional,Consumer,6375 Main St,Los Angeles,NY,64777,Premium,559.0,2,2020-10-12
+ACC000747,Customer_000747,747,Creative Professional,Consumer,3777 Main St,Chicago,NY,98337,Premium,1596.03,3,2024-08-24
+ACC000748,Customer_000748,748,Creative Professional,Consumer,7477 Main St,Seattle,TX,29413,Basic,794.63,2,2020-08-03
+ACC000749,Customer_000749,749,Creative Professional,Consumer,1217 Main St,Chicago,NY,71698,Free,0.0,4,2020-10-03
+ACC000750,Customer_000750,750,Home Owner,Consumer,138 Main St,Austin,IL,85497,Free,0.0,3,2023-01-04
+ACC000751,Customer_000751,751,Creative Professional,Consumer,7636 Main St,Chicago,CA,98526,Premium Plus,3023.15,1,2020-06-15
+ACC000752,Customer_000752,752,Home Owner,Consumer,4015 Main St,Austin,CA,82097,Basic,886.03,3,2021-08-26
+ACC000753,Customer_000753,753,Creative Professional,Consumer,5744 Main St,Los Angeles,TX,38385,Free,0.0,1,2022-11-17
+ACC000754,Customer_000754,754,Home Owner,Consumer,4283 Main St,Seattle,IL,61351,Premium,734.12,1,2023-04-19
+ACC000755,Customer_000755,755,Audiophile,Consumer,9302 Main St,Austin,NY,99322,Basic,1042.62,3,2023-04-26
+ACC000756,Customer_000756,756,Tech Professional,Consumer,3438 Main St,New York,TX,98289,Basic,627.4,2,2020-07-09
+ACC000757,Customer_000757,757,Audiophile,Consumer,8419 Main St,New York,IL,82986,Basic,582.85,3,2020-04-18
+ACC000758,Customer_000758,758,Home Owner,Consumer,8261 Main St,Seattle,TX,37658,Free,0.0,4,2024-07-25
+ACC000759,Customer_000759,759,Creative Professional,Consumer,1104 Main St,Los Angeles,TX,85895,Free,0.0,4,2023-05-12
+ACC000760,Customer_000760,760,Audiophile,Consumer,801 Main St,Austin,WA,38379,Free,0.0,3,2022-04-16
+ACC000761,Customer_000761,761,Creative Professional,Consumer,2616 Main St,New York,NY,24934,Basic,952.49,3,2023-08-09
+ACC000762,Customer_000762,762,Tech Professional,Consumer,1219 Main St,New York,CA,86463,Free,0.0,3,2024-05-26
+ACC000763,Customer_000763,763,Creative Professional,Consumer,8033 Main St,Seattle,NY,55175,Basic,587.76,3,2020-11-17
+ACC000764,Customer_000764,764,Home Owner,Consumer,7184 Main St,Seattle,CA,78834,Basic,354.35,3,2022-04-08
+ACC000765,Customer_000765,765,Creative Professional,Consumer,2962 Main St,Los Angeles,WA,38782,Free,0.0,1,2022-06-29
+ACC000766,Customer_000766,766,Tech Professional,Consumer,7760 Main St,Los Angeles,WA,38370,Free,0.0,3,2021-06-08
+ACC000767,Customer_000767,767,Home Owner,Consumer,3062 Main St,Chicago,NY,65428,Basic,937.8,2,2021-04-15
+ACC000768,Customer_000768,768,Tech Professional,Consumer,7072 Main St,Austin,CA,96248,Free,0.0,3,2021-09-28
+ACC000769,Customer_000769,769,Creative Professional,Consumer,2149 Main St,Los Angeles,IL,90261,Premium Plus,2693.66,2,2021-08-13
+ACC000770,Customer_000770,770,Home Owner,Consumer,3341 Main St,Chicago,WA,22322,Premium Plus,932.46,3,2024-08-03
+ACC000771,Customer_000771,771,Creative Professional,Consumer,4894 Main St,Los Angeles,IL,23588,Free,0.0,4,2021-08-23
+ACC000772,Customer_000772,772,Audiophile,Consumer,2153 Main St,Chicago,NY,39105,Free,0.0,3,2024-11-25
+ACC000773,Customer_000773,773,Home Owner,Consumer,6738 Main St,Chicago,WA,72245,Free,0.0,4,2024-07-12
+ACC000774,Customer_000774,774,Creative Professional,Consumer,3005 Main St,Chicago,NY,72122,Basic,757.01,1,2022-07-06
+ACC000775,Customer_000775,775,Creative Professional,Consumer,9066 Main St,Chicago,CA,69743,Basic,870.31,4,2024-08-31
+ACC000776,Customer_000776,776,Audiophile,Consumer,3456 Main St,Seattle,CA,39836,Free,0.0,3,2023-08-20
+ACC000777,Customer_000777,777,Creative Professional,Consumer,5749 Main St,Los Angeles,IL,37591,Basic,588.15,4,2022-06-17
+ACC000778,Customer_000778,778,Tech Professional,Consumer,644 Main St,Seattle,WA,91853,Free,0.0,1,2020-12-21
+ACC000779,Customer_000779,779,Tech Professional,Consumer,802 Main St,Chicago,CA,50383,Basic,721.25,1,2022-03-25
+ACC000780,Customer_000780,780,Tech Professional,Consumer,4272 Main St,Seattle,CA,39588,Premium Plus,3335.57,1,2020-09-17
+ACC000781,Customer_000781,781,Audiophile,Consumer,8291 Main St,New York,WA,12724,Premium,1128.78,1,2022-05-23
+ACC000782,Customer_000782,782,Home Owner,Consumer,6825 Main St,New York,WA,39488,Basic,336.93,2,2020-10-07
+ACC000783,Customer_000783,783,Home Owner,Consumer,973 Main St,Chicago,NY,58259,Premium Plus,2039.58,1,2024-04-10
+ACC000784,Customer_000784,784,Creative Professional,Consumer,4385 Main St,Austin,IL,61523,Free,0.0,1,2022-07-31
+ACC000785,Customer_000785,785,Creative Professional,Consumer,3410 Main St,Chicago,NY,32309,Free,0.0,2,2024-06-17
+ACC000786,Customer_000786,786,Audiophile,Consumer,8560 Main St,Austin,CA,30393,Premium,548.69,4,2024-01-13
+ACC000787,Customer_000787,787,Audiophile,Consumer,8575 Main St,Seattle,IL,85013,Free,0.0,2,2020-07-07
+ACC000788,Customer_000788,788,Home Owner,Consumer,9731 Main St,Los Angeles,NY,30197,Free,0.0,3,2021-10-23
+ACC000789,Customer_000789,789,Home Owner,Consumer,8787 Main St,Los Angeles,NY,96626,Free,0.0,4,2024-08-03
+ACC000790,Customer_000790,790,Audiophile,Consumer,8188 Main St,New York,WA,63836,Premium,905.96,3,2023-02-23
+ACC000791,Customer_000791,791,Tech Professional,Consumer,5449 Main St,Seattle,WA,23363,Basic,619.96,4,2021-07-23
+ACC000792,Customer_000792,792,Tech Professional,Consumer,1528 Main St,New York,NY,51420,Premium,988.84,2,2023-08-20
+ACC000793,Customer_000793,793,Creative Professional,Consumer,7590 Main St,Chicago,IL,71209,Premium,1922.0,3,2021-02-20
+ACC000794,Customer_000794,794,Creative Professional,Consumer,2268 Main St,Chicago,TX,39365,Premium,1825.07,1,2024-10-25
+ACC000795,Customer_000795,795,Home Owner,Consumer,8137 Main St,New York,NY,34259,Free,0.0,4,2024-02-10
+ACC000796,Customer_000796,796,Audiophile,Consumer,794 Main St,Austin,NY,25413,Free,0.0,3,2020-10-29
+ACC000797,Customer_000797,797,Creative Professional,Consumer,9361 Main St,Austin,TX,19923,Premium Plus,2043.14,3,2022-09-15
+ACC000798,Customer_000798,798,Creative Professional,Consumer,243 Main St,New York,WA,24859,Basic,627.61,3,2020-06-06
+ACC000799,Customer_000799,799,Creative Professional,Consumer,805 Main St,Seattle,TX,19404,Basic,506.75,1,2021-09-26
+ACC000800,Customer_000800,800,Creative Professional,Consumer,5985 Main St,Austin,TX,20996,Premium Plus,3281.07,1,2022-02-01
+ACC000801,Customer_000801,801,Audiophile,Consumer,8544 Main St,Austin,NY,32360,Basic,1023.7,3,2024-09-11
+ACC000802,Customer_000802,802,Audiophile,Consumer,9588 Main St,New York,WA,57855,Free,0.0,3,2022-05-25
+ACC000803,Customer_000803,803,Audiophile,Consumer,8197 Main St,Los Angeles,IL,60427,Free,0.0,4,2022-12-01
+ACC000804,Customer_000804,804,Home Owner,Consumer,2411 Main St,Los Angeles,CA,81618,Free,0.0,4,2024-10-27
+ACC000805,Customer_000805,805,Audiophile,Consumer,7905 Main St,Austin,WA,25436,Free,0.0,3,2020-05-05
+ACC000806,Customer_000806,806,Tech Professional,Consumer,7998 Main St,Chicago,TX,11067,Free,0.0,4,2024-09-15
+ACC000807,Customer_000807,807,Home Owner,Consumer,3755 Main St,New York,TX,37264,Premium,1085.33,1,2020-10-19
+ACC000808,Customer_000808,808,Tech Professional,Consumer,8368 Main St,Chicago,NY,44752,Premium Plus,2219.2,1,2023-10-27
+ACC000809,Customer_000809,809,Creative Professional,Consumer,4508 Main St,Chicago,TX,47156,Basic,491.58,3,2022-08-08
+ACC000810,Customer_000810,810,Home Owner,Consumer,5147 Main St,Chicago,TX,11937,Free,0.0,2,2020-09-03
+ACC000811,Customer_000811,811,Home Owner,Consumer,3674 Main St,New York,WA,54525,Basic,637.27,1,2021-12-19
+ACC000812,Customer_000812,812,Home Owner,Consumer,6069 Main St,New York,NY,95025,Premium Plus,1667.51,2,2022-11-15
+ACC000813,Customer_000813,813,Audiophile,Consumer,8252 Main St,Los Angeles,WA,54099,Basic,661.84,4,2023-04-11
+ACC000814,Customer_000814,814,Home Owner,Consumer,2948 Main St,Austin,WA,83102,Free,0.0,1,2021-05-21
+ACC000815,Customer_000815,815,Tech Professional,Consumer,4279 Main St,Seattle,NY,32157,Premium,1822.92,2,2022-01-01
+ACC000816,Customer_000816,816,Tech Professional,Consumer,9499 Main St,New York,NY,16050,Free,0.0,4,2023-12-04
+ACC000817,Customer_000817,817,Audiophile,Consumer,896 Main St,Seattle,TX,53982,Free,0.0,3,2023-11-17
+ACC000818,Customer_000818,818,Tech Professional,Consumer,5021 Main St,Los Angeles,IL,98837,Basic,813.97,1,2020-08-26
+ACC000819,Customer_000819,819,Audiophile,Consumer,4024 Main St,Los Angeles,NY,19015,Basic,1021.68,3,2023-06-25
+ACC000820,Customer_000820,820,Audiophile,Consumer,6873 Main St,Seattle,CA,55038,Premium,1082.38,4,2020-03-12
+ACC000821,Customer_000821,821,Home Owner,Consumer,8947 Main St,Los Angeles,NY,79093,Premium Plus,1306.29,4,2021-07-19
+ACC000822,Customer_000822,822,Audiophile,Consumer,4495 Main St,Chicago,NY,86464,Basic,504.49,2,2022-08-09
+ACC000823,Customer_000823,823,Audiophile,Consumer,337 Main St,New York,WA,22551,Basic,498.46,2,2020-10-25
+ACC000824,Customer_000824,824,Tech Professional,Consumer,3576 Main St,Austin,IL,61436,Premium,1905.07,3,2024-02-14
+ACC000825,Customer_000825,825,Tech Professional,Consumer,5218 Main St,Seattle,TX,27146,Basic,715.54,1,2022-06-13
+ACC000826,Customer_000826,826,Tech Professional,Consumer,1717 Main St,New York,TX,43848,Basic,495.22,3,2020-01-07
+ACC000827,Customer_000827,827,Tech Professional,Consumer,3041 Main St,Austin,TX,99400,Premium,820.99,3,2021-06-20
+ACC000828,Customer_000828,828,Creative Professional,Consumer,7220 Main St,Seattle,TX,46324,Premium,1655.8,1,2024-02-10
+ACC000829,Customer_000829,829,Tech Professional,Consumer,5522 Main St,New York,WA,96802,Premium,1607.38,1,2022-05-10
+ACC000830,Customer_000830,830,Home Owner,Consumer,1900 Main St,Austin,IL,70892,Premium,1413.88,4,2020-05-17
+ACC000831,Customer_000831,831,Tech Professional,Consumer,4605 Main St,Chicago,CA,13869,Premium,1452.16,1,2022-03-11
+ACC000832,Customer_000832,832,Creative Professional,Consumer,9370 Main St,Seattle,CA,29982,Basic,599.38,2,2020-09-15
+ACC000833,Customer_000833,833,Audiophile,Consumer,1062 Main St,New York,CA,35203,Basic,1006.01,4,2023-05-20
+ACC000834,Customer_000834,834,Creative Professional,Consumer,4269 Main St,Chicago,CA,97347,Free,0.0,4,2020-11-07
+ACC000835,Customer_000835,835,Tech Professional,Consumer,7246 Main St,New York,NY,42236,Premium,1804.29,4,2024-03-07
+ACC000836,Customer_000836,836,Tech Professional,Consumer,748 Main St,Austin,NY,28217,Free,0.0,4,2024-01-16
+ACC000837,Customer_000837,837,Tech Professional,Consumer,8784 Main St,Austin,NY,25352,Free,0.0,1,2023-06-04
+ACC000838,Customer_000838,838,Audiophile,Consumer,8326 Main St,New York,IL,22354,Premium,761.87,1,2020-10-07
+ACC000839,Customer_000839,839,Tech Professional,Consumer,3727 Main St,Austin,CA,17521,Premium,858.83,2,2023-10-07
+ACC000840,Customer_000840,840,Home Owner,Consumer,8157 Main St,Los Angeles,CA,23175,Premium,1557.09,4,2024-10-25
+ACC000841,Customer_000841,841,Audiophile,Consumer,2095 Main St,Seattle,IL,50890,Free,0.0,2,2024-06-22
+ACC000842,Customer_000842,842,Home Owner,Consumer,5020 Main St,New York,IL,22791,Free,0.0,2,2022-12-05
+ACC000843,Customer_000843,843,Home Owner,Consumer,3562 Main St,Seattle,NY,10211,Premium,1553.24,2,2021-08-08
+ACC000844,Customer_000844,844,Audiophile,Consumer,3006 Main St,Seattle,IL,58708,Premium,1884.61,2,2022-10-03
+ACC000845,Customer_000845,845,Tech Professional,Consumer,2371 Main St,Chicago,TX,11135,Basic,396.97,3,2023-11-29
+ACC000846,Customer_000846,846,Audiophile,Consumer,2945 Main St,New York,CA,13829,Free,0.0,4,2020-12-31
+ACC000847,Customer_000847,847,Creative Professional,Consumer,2741 Main St,New York,NY,33170,Free,0.0,1,2024-07-24
+ACC000848,Customer_000848,848,Tech Professional,Consumer,733 Main St,New York,NY,48668,Premium,1449.39,1,2023-12-24
+ACC000849,Customer_000849,849,Audiophile,Consumer,7750 Main St,Los Angeles,NY,58649,Premium Plus,820.64,4,2023-11-19
+ACC000850,Customer_000850,850,Audiophile,Consumer,602 Main St,Chicago,CA,37592,Premium Plus,1120.05,1,2020-09-16
+ACC000851,Customer_000851,851,Tech Professional,Consumer,8662 Main St,Seattle,WA,80963,Free,0.0,3,2023-03-15
+ACC000852,Customer_000852,852,Creative Professional,Consumer,734 Main St,Los Angeles,CA,35541,Free,0.0,3,2021-08-18
+ACC000853,Customer_000853,853,Creative Professional,Consumer,4856 Main St,Los Angeles,NY,49654,Free,0.0,2,2023-01-02
+ACC000854,Customer_000854,854,Creative Professional,Consumer,4405 Main St,Austin,WA,56952,Free,0.0,4,2023-11-04
+ACC000855,Customer_000855,855,Home Owner,Consumer,6845 Main St,Los Angeles,IL,68707,Free,0.0,4,2022-08-10
+ACC000856,Customer_000856,856,Tech Professional,Consumer,914 Main St,Chicago,TX,86014,Basic,905.28,4,2020-08-31
+ACC000857,Customer_000857,857,Tech Professional,Consumer,4127 Main St,Chicago,WA,81252,Basic,886.57,2,2023-11-05
+ACC000858,Customer_000858,858,Tech Professional,Consumer,9258 Main St,New York,IL,35295,Free,0.0,4,2021-01-14
+ACC000859,Customer_000859,859,Tech Professional,Consumer,6756 Main St,Los Angeles,CA,39089,Basic,640.55,1,2023-06-19
+ACC000860,Customer_000860,860,Tech Professional,Consumer,9292 Main St,Austin,TX,12110,Free,0.0,4,2024-11-14
+ACC000861,Customer_000861,861,Audiophile,Consumer,5240 Main St,Los Angeles,TX,71019,Premium Plus,2269.92,4,2023-09-19
+ACC000862,Customer_000862,862,Creative Professional,Consumer,2382 Main St,Los Angeles,CA,29665,Free,0.0,2,2024-11-14
+ACC000863,Customer_000863,863,Audiophile,Consumer,6541 Main St,Chicago,CA,66205,Basic,438.17,2,2023-10-11
+ACC000864,Customer_000864,864,Audiophile,Consumer,8958 Main St,Seattle,IL,29681,Basic,924.36,2,2021-04-01
+ACC000865,Customer_000865,865,Creative Professional,Consumer,1133 Main St,Chicago,CA,11261,Basic,934.99,2,2024-09-11
+ACC000866,Customer_000866,866,Tech Professional,Consumer,4319 Main St,New York,WA,92208,Basic,622.77,3,2023-02-03
+ACC000867,Customer_000867,867,Tech Professional,Consumer,6687 Main St,Chicago,CA,58988,Free,0.0,4,2024-02-16
+ACC000868,Customer_000868,868,Tech Professional,Consumer,9026 Main St,New York,NY,72979,Premium Plus,3221.57,2,2021-08-16
+ACC000869,Customer_000869,869,Creative Professional,Consumer,551 Main St,Chicago,WA,92063,Basic,927.88,4,2024-08-05
+ACC000870,Customer_000870,870,Audiophile,Consumer,5909 Main St,Los Angeles,IL,19580,Basic,605.72,3,2022-12-21
+ACC000871,Customer_000871,871,Audiophile,Consumer,6258 Main St,Austin,TX,78465,Premium,2002.85,2,2023-11-20
+ACC000872,Customer_000872,872,Audiophile,Consumer,866 Main St,Los Angeles,WA,77135,Free,0.0,3,2021-05-06
+ACC000873,Customer_000873,873,Tech Professional,Consumer,9975 Main St,New York,IL,65553,Free,0.0,3,2023-07-03
+ACC000874,Customer_000874,874,Audiophile,Consumer,668 Main St,Los Angeles,IL,58868,Basic,412.83,1,2024-09-22
+ACC000875,Customer_000875,875,Creative Professional,Consumer,4788 Main St,Austin,IL,51286,Basic,1037.5,2,2021-10-10
+ACC000876,Customer_000876,876,Tech Professional,Consumer,1070 Main St,Los Angeles,NY,60165,Premium,1933.26,3,2020-02-28
+ACC000877,Customer_000877,877,Audiophile,Consumer,1901 Main St,New York,IL,69081,Premium,729.33,4,2020-09-22
+ACC000878,Customer_000878,878,Audiophile,Consumer,7206 Main St,Los Angeles,TX,41686,Basic,894.13,1,2024-12-04
+ACC000879,Customer_000879,879,Tech Professional,Consumer,1510 Main St,Seattle,IL,61990,Basic,686.55,3,2023-10-24
+ACC000880,Customer_000880,880,Tech Professional,Consumer,5406 Main St,Chicago,NY,88404,Premium,1469.65,1,2023-02-07
+ACC000881,Customer_000881,881,Audiophile,Consumer,1805 Main St,Seattle,NY,54105,Free,0.0,1,2020-05-02
+ACC000882,Customer_000882,882,Tech Professional,Consumer,7550 Main St,Chicago,NY,34737,Premium,1397.15,3,2023-01-02
+ACC000883,Customer_000883,883,Tech Professional,Consumer,4916 Main St,Chicago,WA,68423,Basic,535.31,4,2020-08-18
+ACC000884,Customer_000884,884,Home Owner,Consumer,6043 Main St,Austin,IL,21600,Free,0.0,1,2021-03-04
+ACC000885,Customer_000885,885,Tech Professional,Consumer,3458 Main St,Los Angeles,CA,59502,Free,0.0,4,2023-08-31
+ACC000886,Customer_000886,886,Home Owner,Consumer,740 Main St,Austin,IL,57284,Free,0.0,3,2024-02-05
+ACC000887,Customer_000887,887,Audiophile,Consumer,417 Main St,Austin,TX,79803,Basic,302.53,2,2020-07-16
+ACC000888,Customer_000888,888,Tech Professional,Consumer,223 Main St,Seattle,IL,77644,Free,0.0,2,2024-02-08
+ACC000889,Customer_000889,889,Creative Professional,Consumer,9992 Main St,New York,NY,76683,Free,0.0,3,2022-04-01
+ACC000890,Customer_000890,890,Creative Professional,Consumer,3584 Main St,Seattle,NY,34114,Basic,304.98,2,2020-05-29
+ACC000891,Customer_000891,891,Tech Professional,Consumer,4624 Main St,Austin,NY,95293,Free,0.0,2,2024-02-15
+ACC000892,Customer_000892,892,Tech Professional,Consumer,9698 Main St,Seattle,NY,17003,Free,0.0,3,2021-09-24
+ACC000893,Customer_000893,893,Creative Professional,Consumer,734 Main St,New York,TX,37780,Free,0.0,2,2024-09-16
+ACC000894,Customer_000894,894,Tech Professional,Consumer,9835 Main St,Los Angeles,CA,47542,Premium,776.5,2,2022-08-13
+ACC000895,Customer_000895,895,Audiophile,Consumer,476 Main St,Austin,NY,27310,Free,0.0,1,2020-07-25
+ACC000896,Customer_000896,896,Audiophile,Consumer,4789 Main St,Los Angeles,TX,23577,Free,0.0,3,2023-08-15
+ACC000897,Customer_000897,897,Tech Professional,Consumer,2818 Main St,Los Angeles,NY,17496,Basic,1040.49,4,2021-08-03
+ACC000898,Customer_000898,898,Audiophile,Consumer,7997 Main St,Chicago,IL,29937,Free,0.0,3,2023-10-22
+ACC000899,Customer_000899,899,Creative Professional,Consumer,907 Main St,Austin,IL,57980,Basic,706.32,1,2020-08-26
+ACC000900,Customer_000900,900,Tech Professional,Consumer,4786 Main St,Chicago,IL,94373,Free,0.0,4,2024-08-29
+ACC000901,Customer_000901,901,Creative Professional,Consumer,308 Main St,Seattle,CA,67211,Basic,668.47,4,2021-03-05
+ACC000902,Customer_000902,902,Home Owner,Consumer,9300 Main St,New York,NY,24723,Premium Plus,2993.5,3,2020-11-19
+ACC000903,Customer_000903,903,Audiophile,Consumer,5720 Main St,Chicago,IL,45284,Free,0.0,4,2024-02-11
+ACC000904,Customer_000904,904,Tech Professional,Consumer,4550 Main St,Austin,IL,23260,Premium,1998.11,3,2021-07-06
+ACC000905,Customer_000905,905,Tech Professional,Consumer,351 Main St,Los Angeles,CA,74096,Premium,1929.14,4,2021-02-04
+ACC000906,Customer_000906,906,Home Owner,Consumer,4822 Main St,Austin,IL,13288,Basic,346.59,4,2023-05-29
+ACC000907,Customer_000907,907,Creative Professional,Consumer,9649 Main St,Austin,WA,27088,Premium,1005.3,2,2022-11-16
+ACC000908,Customer_000908,908,Creative Professional,Consumer,8634 Main St,New York,CA,40520,Free,0.0,1,2021-02-02
+ACC000909,Customer_000909,909,Home Owner,Consumer,1652 Main St,Chicago,NY,75336,Free,0.0,4,2024-05-08
+ACC000910,Customer_000910,910,Home Owner,Consumer,1890 Main St,New York,TX,83276,Premium Plus,2250.93,4,2020-08-10
+ACC000911,Customer_000911,911,Audiophile,Consumer,3447 Main St,Austin,NY,49581,Basic,910.22,3,2022-08-29
+ACC000912,Customer_000912,912,Creative Professional,Consumer,2393 Main St,New York,TX,38049,Premium,1221.38,4,2023-05-28
+ACC000913,Customer_000913,913,Tech Professional,Consumer,3905 Main St,Austin,IL,80468,Basic,431.54,2,2022-07-30
+ACC000914,Customer_000914,914,Creative Professional,Consumer,1726 Main St,New York,IL,80209,Premium,2092.35,2,2022-09-03
+ACC000915,Customer_000915,915,Home Owner,Consumer,4697 Main St,New York,CA,84385,Premium,805.05,3,2022-05-10
+ACC000916,Customer_000916,916,Creative Professional,Consumer,3147 Main St,Austin,TX,87513,Free,0.0,4,2023-11-04
+ACC000917,Customer_000917,917,Tech Professional,Consumer,2064 Main St,Chicago,NY,27025,Premium,674.27,4,2024-05-18
+ACC000918,Customer_000918,918,Home Owner,Consumer,1150 Main St,Seattle,NY,48450,Free,0.0,3,2021-08-29
+ACC000919,Customer_000919,919,Audiophile,Consumer,9412 Main St,New York,NY,70758,Free,0.0,1,2021-11-29
+ACC000920,Customer_000920,920,Audiophile,Consumer,9968 Main St,Austin,CA,86826,Free,0.0,2,2020-08-13
+ACC000921,Customer_000921,921,Tech Professional,Consumer,1142 Main St,Seattle,CA,48179,Basic,917.75,2,2023-01-17
+ACC000922,Customer_000922,922,Audiophile,Consumer,8571 Main St,Los Angeles,WA,60549,Basic,1024.3,3,2022-08-01
+ACC000923,Customer_000923,923,Audiophile,Consumer,4213 Main St,Los Angeles,TX,51914,Premium Plus,1682.15,2,2020-11-02
+ACC000924,Customer_000924,924,Tech Professional,Consumer,6473 Main St,Austin,CA,65034,Premium,1064.01,3,2023-08-31
+ACC000925,Customer_000925,925,Home Owner,Consumer,3497 Main St,Los Angeles,NY,86535,Free,0.0,2,2022-09-18
+ACC000926,Customer_000926,926,Tech Professional,Consumer,4665 Main St,New York,TX,90966,Free,0.0,2,2024-06-03
+ACC000927,Customer_000927,927,Home Owner,Consumer,8312 Main St,Austin,CA,68194,Premium,672.77,4,2020-04-20
+ACC000928,Customer_000928,928,Home Owner,Consumer,8947 Main St,Austin,IL,84862,Premium,2003.3,1,2021-02-20
+ACC000929,Customer_000929,929,Audiophile,Consumer,2382 Main St,Chicago,CA,15456,Premium Plus,2294.07,2,2021-06-20
+ACC000930,Customer_000930,930,Creative Professional,Consumer,5403 Main St,Chicago,CA,17656,Free,0.0,4,2023-11-06
+ACC000931,Customer_000931,931,Home Owner,Consumer,5430 Main St,Austin,NY,25866,Premium,482.34,2,2024-09-02
+ACC000932,Customer_000932,932,Tech Professional,Consumer,3923 Main St,Austin,IL,83155,Basic,858.3,2,2020-10-14
+ACC000933,Customer_000933,933,Home Owner,Consumer,5450 Main St,Austin,CA,51758,Free,0.0,3,2023-01-05
+ACC000934,Customer_000934,934,Audiophile,Consumer,2829 Main St,Seattle,TX,63001,Free,0.0,2,2022-06-29
+ACC000935,Customer_000935,935,Creative Professional,Consumer,5612 Main St,Los Angeles,NY,13119,Free,0.0,2,2022-06-03
+ACC000936,Customer_000936,936,Tech Professional,Consumer,7810 Main St,Seattle,IL,13120,Free,0.0,1,2024-10-21
+ACC000937,Customer_000937,937,Audiophile,Consumer,6054 Main St,New York,CA,83516,Basic,991.79,4,2021-01-28
+ACC000938,Customer_000938,938,Tech Professional,Consumer,2113 Main St,Austin,CA,91869,Free,0.0,2,2021-02-16
+ACC000939,Customer_000939,939,Tech Professional,Consumer,6263 Main St,Austin,CA,14635,Basic,406.84,1,2022-12-28
+ACC000940,Customer_000940,940,Home Owner,Consumer,2445 Main St,Chicago,IL,39679,Premium,650.48,4,2022-10-17
+ACC000941,Customer_000941,941,Audiophile,Consumer,9988 Main St,Los Angeles,TX,47163,Free,0.0,1,2023-12-04
+ACC000942,Customer_000942,942,Audiophile,Consumer,8973 Main St,Los Angeles,TX,66052,Premium Plus,971.72,1,2024-05-22
+ACC000943,Customer_000943,943,Creative Professional,Consumer,5514 Main St,Austin,WA,68265,Free,0.0,1,2020-10-14
+ACC000944,Customer_000944,944,Creative Professional,Consumer,7573 Main St,Austin,TX,43175,Basic,953.47,1,2024-02-24
+ACC000945,Customer_000945,945,Home Owner,Consumer,9656 Main St,New York,CA,80843,Free,0.0,1,2022-05-05
+ACC000946,Customer_000946,946,Creative Professional,Consumer,8549 Main St,New York,WA,84366,Premium,1055.7,2,2024-05-29
+ACC000947,Customer_000947,947,Home Owner,Consumer,8227 Main St,Los Angeles,NY,43537,Premium,807.74,1,2021-08-14
+ACC000948,Customer_000948,948,Audiophile,Consumer,7637 Main St,Chicago,IL,65600,Premium Plus,1270.05,3,2022-07-10
+ACC000949,Customer_000949,949,Tech Professional,Consumer,5338 Main St,Chicago,IL,81446,Premium,1935.2,3,2023-05-06
+ACC000950,Customer_000950,950,Tech Professional,Consumer,1074 Main St,New York,CA,64704,Free,0.0,3,2024-11-07
+ACC000951,Customer_000951,951,Audiophile,Consumer,7817 Main St,Chicago,CA,25740,Free,0.0,1,2023-11-21
+ACC000952,Customer_000952,952,Home Owner,Consumer,1195 Main St,Los Angeles,IL,28704,Basic,318.4,1,2023-11-13
+ACC000953,Customer_000953,953,Tech Professional,Consumer,278 Main St,Los Angeles,WA,27731,Premium,1193.46,4,2023-08-20
+ACC000954,Customer_000954,954,Audiophile,Consumer,2632 Main St,Los Angeles,TX,41293,Premium,592.47,1,2023-03-15
+ACC000955,Customer_000955,955,Tech Professional,Consumer,1475 Main St,Austin,CA,18371,Free,0.0,3,2020-01-26
+ACC000956,Customer_000956,956,Home Owner,Consumer,3597 Main St,Los Angeles,TX,79098,Free,0.0,3,2022-05-01
+ACC000957,Customer_000957,957,Audiophile,Consumer,4237 Main St,Los Angeles,NY,99356,Free,0.0,3,2023-06-15
+ACC000958,Customer_000958,958,Creative Professional,Consumer,9429 Main St,Chicago,CA,96473,Free,0.0,4,2021-06-05
+ACC000959,Customer_000959,959,Tech Professional,Consumer,4991 Main St,Chicago,TX,51745,Premium,1148.13,1,2021-01-31
+ACC000960,Customer_000960,960,Home Owner,Consumer,3030 Main St,Chicago,WA,20637,Free,0.0,3,2024-07-28
+ACC000961,Customer_000961,961,Creative Professional,Consumer,1861 Main St,Austin,NY,49987,Basic,929.12,4,2023-10-18
+ACC000962,Customer_000962,962,Audiophile,Consumer,809 Main St,Los Angeles,TX,72092,Free,0.0,2,2020-07-24
+ACC000963,Customer_000963,963,Creative Professional,Consumer,5686 Main St,Los Angeles,IL,49250,Premium,1890.07,1,2023-01-17
+ACC000964,Customer_000964,964,Creative Professional,Consumer,1695 Main St,Seattle,WA,30188,Basic,911.68,2,2020-08-16
+ACC000965,Customer_000965,965,Creative Professional,Consumer,7295 Main St,New York,CA,91386,Premium Plus,1171.0,4,2024-09-26
+ACC000966,Customer_000966,966,Creative Professional,Consumer,5175 Main St,Chicago,TX,18948,Free,0.0,4,2022-11-17
+ACC000967,Customer_000967,967,Tech Professional,Consumer,9584 Main St,Seattle,TX,45561,Free,0.0,1,2023-08-26
+ACC000968,Customer_000968,968,Creative Professional,Consumer,4017 Main St,Austin,WA,35601,Premium,1960.81,1,2020-12-07
+ACC000969,Customer_000969,969,Audiophile,Consumer,6205 Main St,Chicago,NY,69501,Basic,702.8,3,2020-07-07
+ACC000970,Customer_000970,970,Audiophile,Consumer,5296 Main St,Seattle,IL,64361,Basic,624.28,1,2021-06-21
+ACC000971,Customer_000971,971,Audiophile,Consumer,1212 Main St,Austin,TX,52865,Free,0.0,1,2020-05-06
+ACC000972,Customer_000972,972,Audiophile,Consumer,3207 Main St,Seattle,IL,16969,Basic,601.07,3,2024-02-07
+ACC000973,Customer_000973,973,Home Owner,Consumer,4132 Main St,New York,CA,53667,Basic,481.12,3,2020-06-24
+ACC000974,Customer_000974,974,Home Owner,Consumer,472 Main St,Seattle,NY,47978,Free,0.0,1,2021-07-18
+ACC000975,Customer_000975,975,Audiophile,Consumer,5704 Main St,Austin,WA,34476,Basic,1036.56,4,2021-05-16
+ACC000976,Customer_000976,976,Creative Professional,Consumer,9848 Main St,Chicago,TX,10043,Basic,839.64,3,2021-12-28
+ACC000977,Customer_000977,977,Home Owner,Consumer,2298 Main St,New York,NY,40762,Free,0.0,1,2023-04-14
+ACC000978,Customer_000978,978,Home Owner,Consumer,9846 Main St,New York,NY,54883,Basic,925.2,2,2020-02-16
+ACC000979,Customer_000979,979,Home Owner,Consumer,9633 Main St,Austin,CA,93239,Basic,838.81,4,2021-11-22
+ACC000980,Customer_000980,980,Audiophile,Consumer,5634 Main St,Seattle,NY,48064,Free,0.0,2,2024-09-03
+ACC000981,Customer_000981,981,Tech Professional,Consumer,572 Main St,Chicago,NY,27368,Free,0.0,3,2022-02-22
+ACC000982,Customer_000982,982,Creative Professional,Consumer,550 Main St,Los Angeles,TX,92342,Premium,1327.14,2,2024-04-13
+ACC000983,Customer_000983,983,Creative Professional,Consumer,5533 Main St,Austin,IL,36414,Premium,1936.76,1,2024-10-16
+ACC000984,Customer_000984,984,Audiophile,Consumer,6229 Main St,Chicago,NY,28549,Free,0.0,2,2020-02-05
+ACC000985,Customer_000985,985,Home Owner,Consumer,4805 Main St,Seattle,NY,51036,Premium,1677.12,1,2022-06-12
+ACC000986,Customer_000986,986,Tech Professional,Consumer,7823 Main St,Los Angeles,TX,14789,Free,0.0,1,2022-10-12
+ACC000987,Customer_000987,987,Home Owner,Consumer,8616 Main St,Los Angeles,IL,10991,Premium,1575.8,3,2023-04-11
+ACC000988,Customer_000988,988,Home Owner,Consumer,5285 Main St,Austin,NY,35582,Free,0.0,1,2020-01-25
+ACC000989,Customer_000989,989,Audiophile,Consumer,3539 Main St,Chicago,TX,73636,Basic,570.79,3,2024-09-07
+ACC000990,Customer_000990,990,Audiophile,Consumer,9921 Main St,Chicago,TX,62200,Basic,428.4,2,2022-10-09
+ACC000991,Customer_000991,991,Tech Professional,Consumer,179 Main St,Chicago,WA,69923,Basic,260.5,2,2020-04-21
+ACC000992,Customer_000992,992,Home Owner,Consumer,2577 Main St,Chicago,WA,62006,Premium,1194.36,2,2022-02-25
+ACC000993,Customer_000993,993,Tech Professional,Consumer,6715 Main St,Los Angeles,WA,33722,Premium,1630.32,1,2020-10-11
+ACC000994,Customer_000994,994,Creative Professional,Consumer,9602 Main St,Seattle,CA,81772,Basic,634.91,1,2023-06-11
+ACC000995,Customer_000995,995,Creative Professional,Consumer,242 Main St,Seattle,IL,19267,Basic,833.59,2,2024-01-05
+ACC000996,Customer_000996,996,Home Owner,Consumer,9452 Main St,Austin,TX,95814,Free,0.0,3,2021-11-07
+ACC000997,Customer_000997,997,Home Owner,Consumer,9478 Main St,New York,CA,98995,Premium Plus,840.67,1,2020-01-28
+ACC000998,Customer_000998,998,Home Owner,Consumer,2529 Main St,Seattle,IL,58902,Basic,696.13,1,2020-07-25
+ACC000999,Customer_000999,999,Tech Professional,Consumer,6524 Main St,Seattle,CA,95103,Premium,1568.89,1,2021-07-29
+ACC001000,Customer_001000,1000,Tech Professional,Consumer,4060 Main St,Chicago,TX,15974,Free,0.0,4,2020-07-10

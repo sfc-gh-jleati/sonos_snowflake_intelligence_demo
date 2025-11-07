@@ -1,0 +1,12 @@
+vendor_key,vendor_name,vertical,address,city,state,zip
+1,Stripe Payment Processing,Payment Processing,510 Townsend St,San Francisco,CA,94103
+2,Shopify Commerce,E-Commerce Platform,151 O'Connor St,Ottawa,ON,K2P2L8
+3,Amazon Web Services,Cloud Infrastructure,410 Terry Ave N,Seattle,WA,98109
+4,Salesforce CRM,CRM Platform,415 Mission St,San Francisco,CA,94105
+5,Google Cloud Platform,Cloud Infrastructure,1600 Amphitheatre Pkwy,Mountain View,CA,94043
+6,UPS Logistics,Shipping & Logistics,55 Glenlake Pkwy NE,Atlanta,GA,30328
+7,FedEx Logistics,Shipping & Logistics,942 S Shady Grove Rd,Memphis,TN,38120
+8,Best Buy Retail,Retail Partner,7601 Penn Ave S,Richfield,MN,55423
+9,Target Retail,Retail Partner,1000 Nicollet Mall,Minneapolis,MN,55403
+10,Apple Retail,Retail Partner,One Apple Park Way,Cupertino,CA,95014
+

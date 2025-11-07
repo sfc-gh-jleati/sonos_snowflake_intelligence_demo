@@ -1,0 +1,17 @@
+product_key,product_name,category_key,category_name,vertical
+1,Sonos Arc,1,Soundbars,Home Audio
+2,Sonos Beam (Gen 2),1,Soundbars,Home Audio
+3,Sonos Ray,1,Soundbars,Home Audio
+4,Sonos Era 100,2,Smart Speakers,Home Audio
+5,Sonos Era 300,2,Smart Speakers,Home Audio
+6,Sonos One (Gen 2),2,Smart Speakers,Home Audio
+7,Sonos Move 2,3,Portable Speakers,Portable Audio
+8,Sonos Roam,3,Portable Speakers,Portable Audio
+9,Sonos Sub (Gen 3),4,Subwoofers,Home Audio
+10,Sonos Sub Mini,4,Subwoofers,Home Audio
+11,Sonos Amp,5,Amplifiers,Home Audio
+12,Sonos Port,5,Amplifiers,Home Audio
+13,Wall Mount for Arc,6,Accessories,Accessories
+14,Wall Mount for One,6,Accessories,Accessories
+15,Sonos Roam Wireless Charger,6,Accessories,Accessories
+
