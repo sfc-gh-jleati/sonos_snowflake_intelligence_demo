@@ -321,10 +321,55 @@ CREATE OR REPLACE SEMANTIC VIEW SONOS_AI_DEMO.APP.MARKETING_SEMANTIC_VIEW
 SHOW SEMANTIC VIEWS;
 
 -- ========================================================================
--- HELPER VIEWS FOR Q3 (Forecasting & Anomaly Detection)
+-- ARC FORECASTING TABLE & SEMANTIC VIEW (Q3)
 -- ========================================================================
 
--- Arc daily sales for forecasting and anomaly analysis
+-- Create Arc forecasting table (materialized for fast access)
+CREATE OR REPLACE TABLE arc_forecast_data AS
+SELECT 
+    s.date,
+    r.region_name,
+    SUM(s.units) as daily_units,
+    SUM(s.amount) as daily_revenue,
+    DATE_TRUNC('WEEK', s.date) as week,
+    DATE_TRUNC('MONTH', s.date) as month,
+    YEAR(s.date) as year
+FROM sales_fact s
+JOIN product_dim p ON s.product_key = p.product_key
+JOIN region_dim r ON s.region_key = r.region_key
+WHERE p.product_name = 'Sonos Arc'
+GROUP BY s.date, r.region_name, DATE_TRUNC('WEEK', s.date), DATE_TRUNC('MONTH', s.date), YEAR(s.date);
+
+-- Create dedicated semantic view for Arc forecasting
+CREATE OR REPLACE SEMANTIC VIEW ARC_FORECASTING_VIEW
+    tables (
+        ARC_DATA as ARC_FORECAST_DATA primary key (DATE, REGION_NAME) 
+            with synonyms=('arc sales','arc data','sonos arc data') 
+            comment='Sonos Arc daily sales by region - for forecasting and anomaly detection'
+    )
+    facts (
+        ARC_DATA.DAILY_UNITS as daily_units comment='Daily Arc units sold',
+        ARC_DATA.DAILY_REVENUE as daily_revenue comment='Daily Arc revenue'
+    )
+    dimensions (
+        ARC_DATA.DATE as date with synonyms=('date','day','sale date') comment='Sale date',
+        ARC_DATA.WEEK as week with synonyms=('week','weekly') comment='Week',
+        ARC_DATA.MONTH as month with synonyms=('month','monthly') comment='Month',
+        ARC_DATA.YEAR as year comment='Year',
+        ARC_DATA.REGION_NAME as region_name with synonyms=('region','market') comment='Region name'
+    )
+    metrics (
+        ARC_DATA.TOTAL_UNITS as SUM(arc_data.daily_units) comment='Total Arc units',
+        ARC_DATA.TOTAL_REVENUE as SUM(arc_data.daily_revenue) comment='Total Arc revenue',
+        ARC_DATA.AVG_DAILY_UNITS as AVG(arc_data.daily_units) comment='Average daily Arc units'
+    )
+    comment='Sonos Arc forecasting view - simplified for Q3 anomaly detection and forecasting';
+
+-- ========================================================================
+-- HELPER VIEWS FOR Q3 (Optional - for direct SQL access)
+-- ========================================================================
+
+-- Arc daily sales view (helper)
 CREATE OR REPLACE VIEW arc_daily_sales AS
 SELECT 
     s.date,
@@ -477,7 +522,7 @@ FROM SPECIFICATION $$
   },
   "instructions": {
     "response": "You are a product analytics specialist for Sonos, the premium audio company. You analyze product sales (Arc, Beam, Era, Move, Roam), marketing campaigns, and provide forecasts. Default to 2025 or last 90 days for time periods. Use line charts for trends, bar charts for comparisons. The Arc Upgrade Promo Q3 2025 (July-October) drove significant Arc sales growth with major spikes on Sept 10, 26, Oct 11, 20 reaching 50-70 units per day (vs 6-12 normal).",
-    "orchestration": "For product sales: use Query_Product_Sales_Analytics. For marketing: use Query_Marketing_Campaign_Performance. For forecasting: query arc_daily_sales view. For sentiment: use Web_Scraper on review sites.",
+    "orchestration": "For general product sales (Q1): use Query_Product_Sales_Analytics. For marketing (Q2): use Query_Marketing_Campaign_Performance. For Arc forecasting and anomalies (Q3): use Query_Arc_Forecasting_Data which has pre-aggregated Arc daily sales. For sentiment (Q4): use Web_Scraper.",
     "sample_questions": [
       {
         "question": "Over the last 90 days in North America, which Sonos product led in units and revenue? Show top 5 with MoM growth."
@@ -486,7 +531,7 @@ FROM SPECIFICATION $$
         "question": "What drove the Arc spike? Break down by marketing channel and campaign over the last 8 weeks, and correlate with spend and impressions."
       },
       {
-        "question": "Using arc_daily_sales view, show Sonos Arc sales in North America over the past 12 weeks. Flag days with over 50 units as anomalies. Forecast the next 4 weeks at 5-8 units per day."
+        "question": "Show me Sonos Arc daily sales in North America over the past 12 weeks. Flag days with over 50 units as major anomalies. Based on recent trends, forecast the next 4 weeks assuming 5-8 units per day."
       },
       {
         "question": "Summarize sentiment and top recurring themes from recent Sonos Arc product reviews. Use the web scraper tool on https://www.theverge.com/reviews and https://www.soundguys.com/reviews/"
@@ -498,35 +543,42 @@ FROM SPECIFICATION $$
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query_Product_Sales_Analytics",
-        "description": "Analyze Sonos product sales: units sold, revenue, trends by product (Arc, Beam, Era, Move, Roam), region (North America, Europe, APAC), and time period. Used for Q1 and Q3. Includes helper view arc_daily_sales for forecasting analysis."
+        "description": "Analyze Sonos product sales: units, revenue, trends by product/region/time. For Q1 - which products sell best."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query_Marketing_Campaign_Performance",
-        "description": "Analyze marketing campaign performance: spend, impressions, leads by channel (Paid Search, YouTube, Social, Retail eCom, Email), campaign (Arc Upgrade Promo Q3 2025, etc.), and product. Calculate ROI metrics like cost-per-lead and CPM. Used for Q2."
+        "description": "Analyze marketing campaigns: spend, impressions, leads, ROI by channel/campaign. For Q2 - what marketing drives sales."
+      }
+    },
+    {
+      "tool_spec": {
+        "type": "cortex_analyst_text_to_sql",
+        "name": "Query_Arc_Forecasting_Data",
+        "description": "Query Sonos Arc daily sales for forecasting and anomaly detection. Has Arc units/revenue by date and region. For Q3 - forecast Arc and detect anomalies. Anomaly spikes on Sept 10, 26, Oct 11, 20 2025."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_search",
-        "name": "Search_Marketing_Campaign_Materials",
-        "description": "Search marketing campaign strategies, channel performance reports, campaign plans, and marketing materials. Provides context for campaign objectives and channel strategies."
+        "name": "Search_Marketing_Materials",
+        "description": "Search marketing strategies and reports."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_search",
-        "name": "Search_Product_Documentation",
-        "description": "Search product playbooks, customer success stories, product performance data, and Sonos product information. Useful for understanding product positioning and customer feedback."
+        "name": "Search_Product_Docs",
+        "description": "Search product playbooks and stories."
       }
     },
     {
       "tool_spec": {
         "type": "generic",
         "name": "Web_Scraper",
-        "description": "Scrapes and analyzes content from public web pages. Use for Q4 sentiment analysis - scrape product review websites (The Verge, CNET, SoundGuys) to extract customer sentiment and themes about Sonos products. Input: web URL (http:// or https://). Output: text content from page.",
+        "description": "Scrape review websites for sentiment. Input: URL. For Q4.",
         "input_schema": {
           "type": "object",
           "properties": {
@@ -547,13 +599,16 @@ FROM SPECIFICATION $$
     "Query_Marketing_Campaign_Performance": {
       "semantic_view": "SONOS_AI_DEMO.APP.MARKETING_SEMANTIC_VIEW"
     },
-    "Search_Marketing_Campaign_Materials": {
+    "Query_Arc_Forecasting_Data": {
+      "semantic_view": "SONOS_AI_DEMO.APP.ARC_FORECASTING_VIEW"
+    },
+    "Search_Marketing_Materials": {
       "id_column": "RELATIVE_PATH",
       "max_results": 5,
       "name": "SONOS_AI_DEMO.APP.SEARCH_MARKETING_DOCS",
       "title_column": "TITLE"
     },
-    "Search_Product_Documentation": {
+    "Search_Product_Docs": {
       "id_column": "FILE_URL",
       "max_results": 5,
       "name": "SONOS_AI_DEMO.APP.SEARCH_PRODUCT_DOCS",
