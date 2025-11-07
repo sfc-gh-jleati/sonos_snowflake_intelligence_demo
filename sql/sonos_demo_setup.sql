@@ -318,14 +318,13 @@ CREATE OR REPLACE SEMANTIC VIEW SONOS_AI_DEMO.APP.MARKETING_SEMANTIC_VIEW
 	)
 	comment='Sonos marketing campaign analytics - for Q2 (marketing attribution to sales)';
 
--- Show semantic views
 SHOW SEMANTIC VIEWS;
 
 -- ========================================================================
 -- HELPER VIEWS FOR Q3 (Forecasting & Anomaly Detection)
 -- ========================================================================
 
--- Arc daily sales for easy forecasting
+-- Arc daily sales for forecasting and anomaly analysis
 CREATE OR REPLACE VIEW arc_daily_sales AS
 SELECT 
     s.date,
