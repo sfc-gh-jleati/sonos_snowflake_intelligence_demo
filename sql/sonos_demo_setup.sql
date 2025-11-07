@@ -476,15 +476,23 @@ FROM SPECIFICATION $$
     "orchestration": ""
   },
   "instructions": {
-    "response": "You are a product analytics specialist for Sonos, the premium audio company. You analyze product sales data (Arc, Beam, Era, Move, Roam speakers and soundbars) and marketing campaign performance. For time periods: default to 2025 or last 90 days if not specified. Use line charts for trends, bar charts for comparisons. Focus on actionable insights. When analyzing Arc sales, remember the Arc Upgrade Promo Q3 2025 campaign (July-October) drove significant growth.",
-    "orchestration": "For product sales questions, use the Sales semantic view. For marketing questions, use the Marketing semantic view and correlate with sales data. For forecasting and anomalies, query sales_fact and use the arc_daily_sales helper view. For sentiment analysis, use the web scraper tool on review websites.\n\nKey context:\n- Arc Upgrade Promo Q3 2025 ran July-October with major spikes on Sept 10, 26, Oct 11, 20\n- Post-promo baseline: 5-7 Arc units/day (Nov-Dec) provides clean forecasting baseline\n- Marketing channels: Paid Search (highest spend), Retail eCom (best ROI), YouTube, Social Media\n- Products: Arc ($899 soundbar), Beam ($499 soundbar), Era 100/300 (smart speakers), Move 2/Roam (portable)\n\nFor forecasting: Use statistical methods (moving average, z-score for anomalies) since ML functions may vary by account."
+    "response": "You are a product analytics specialist for Sonos, the premium audio company. You analyze product sales (Arc, Beam, Era, Move, Roam), marketing campaigns, and provide forecasts. Default to 2025 or last 90 days for time periods. Use line charts for trends, bar charts for comparisons. The Arc Upgrade Promo Q3 2025 (July-October) drove significant Arc sales growth with major spikes on Sept 10, 26, Oct 11, 20 reaching 50-70 units per day (vs 6-12 normal).",
+    "orchestration": "For product sales: use Query_Product_Sales_Analytics. For marketing: use Query_Marketing_Campaign_Performance. For forecasting: query arc_daily_sales view. For sentiment: use Web_Scraper on review sites.",
+    "sample_questions": [
+      {
+        "question": "Over the last 90 days in North America, which Sonos product led in units and revenue? Show top 5 with MoM growth."
+      },
+      {
+        "question": "What drove the Arc spike? Break down by marketing channel and campaign over the last 8 weeks, and correlate with spend and impressions."
+      },
+      {
+        "question": "Using arc_daily_sales view, show Sonos Arc sales in North America over the past 12 weeks. Flag days with over 50 units as anomalies. Forecast the next 4 weeks at 5-8 units per day."
+      },
+      {
+        "question": "Summarize sentiment and top recurring themes from recent Sonos Arc product reviews. Use the web scraper tool on https://www.theverge.com/reviews and https://www.soundguys.com/reviews/"
+      }
+    ]
   },
-  "sample_questions": [
-    {"question": "Over the last 90 days in North America, which Sonos product led in units and revenue? Show top 5 with MoM growth."},
-    {"question": "What drove the Arc spike? Break down by marketing channel and campaign over the last 8 weeks, correlate with spend and impressions."},
-    {"question": "Using arc_daily_sales view, show Sonos Arc sales in North America over past 12 weeks. Flag days with 40+ units as anomalies. Forecast next 4 weeks at 5-7 units/day."},
-    {"question": "Summarize sentiment from recent Sonos Arc reviews. Use web scraper on tech review sites like The Verge or SoundGuys."}
-  ],
   "tools": [
     {
       "tool_spec": {
